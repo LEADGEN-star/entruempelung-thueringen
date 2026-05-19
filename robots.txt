@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /danke
 
 Sitemap: https://entruempelung-thueringen.com/sitemap.xml
