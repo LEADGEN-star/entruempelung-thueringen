@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60" role="img" aria-label="Entrümpelung Thüringen Logo">
+  <!-- Dark background for visibility -->
+  <rect width="280" height="60" rx="6" fill="#111827"/>
   <!-- House icon with arrow pointing out (representing clearance) -->
   <g transform="translate(4, 6)">
     <!-- House body -->
