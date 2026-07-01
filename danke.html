@@ -29,6 +29,11 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-18142775376');
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18142775376/0fwbCJHUjascENCQk8tD',
+      'value': 50.0,
+      'currency': 'EUR'
+    });
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -37,7 +42,7 @@
     body{font-family:'Source Sans 3',sans-serif;color:var(--text);background:var(--white);line-height:1.65;min-height:100vh;display:flex;flex-direction:column}
     nav{background:var(--dark);padding:.9rem 2rem;display:flex;justify-content:space-between;align-items:center}
     .logo{font-family:'Oswald',sans-serif;font-size:1.35rem;font-weight:700;color:var(--white);text-decoration:none;letter-spacing:.03em}
-    .logo span{color:var(--orange-light)}
+    
     main{flex:1;display:flex;align-items:center;justify-content:center;padding:4rem 2rem;background:var(--gray)}
     .card{background:var(--white);border-radius:12px;padding:3rem 2.5rem;max-width:560px;width:100%;text-align:center;box-shadow:0 4px 24px rgba(0,0,0,.08)}
     .check{width:72px;height:72px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;font-size:2rem}
@@ -59,7 +64,7 @@
 </head>
 <body>
 <nav>
-  <a href="/" class="logo">Entrümpelung<span>Thüringen</span></a>
+  <a href="/" class="logo"><img src="/logo.svg" alt="Entrümpelung Thüringen" width="210" height="44" style="height:44px;width:auto;" /></a>
 </nav>
 <main>
   <div class="card">
