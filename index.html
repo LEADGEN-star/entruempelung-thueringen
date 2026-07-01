@@ -122,14 +122,14 @@
       z-index: 100;
     }
     .logo {
-      font-family: 'Oswald', sans-serif;
-      font-size: 1.35rem;
-      font-weight: 700;
-      color: var(--white);
       text-decoration: none;
-      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
     }
-    .logo span { color: var(--orange-light); }
+    .logo img {
+      height: 44px;
+      width: auto;
+    }
     nav a.cta-nav {
       background: var(--orange);
       color: var(--white);
@@ -399,7 +399,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="/" class="logo">Entrümpelung<span>Thüringen</span></a>
+  <a href="/" class="logo"><img src="/logo.svg" alt="Entrümpelung Thüringen" width="210" height="44" /></a>
   <div class="nav-actions">
     <a href="tel:+4915730064205" class="tel-nav">📞 <span class="tel-label">+49 157 30064205</span></a>
     <a href="#anfrage" class="cta-nav">Kostenlos anfragen →</a>
