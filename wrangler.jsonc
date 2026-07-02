@@ -14,5 +14,9 @@
   "routes": [
     { "pattern": "entruempelung-thueringen.com/*", "zone_name": "entruempelung-thueringen.com" },
     { "pattern": "www.entruempelung-thueringen.com/*", "zone_name": "entruempelung-thueringen.com" }
+  ],
+  "custom_domains": [
+    "entruempelung-thueringen.com",
+    "www.entruempelung-thueringen.com"
   ]
 }
