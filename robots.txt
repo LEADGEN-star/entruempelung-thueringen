@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /danke
 
-Sitemap: https://entruempelung-thueringen.com/sitemap.xml
+Sitemap: https://kammerjaeger-thueringen.de/sitemap.xml
