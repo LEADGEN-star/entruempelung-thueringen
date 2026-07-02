@@ -10,5 +10,9 @@
   },
   "compatibility_flags": [
     "nodejs_compat"
+  ],
+  "routes": [
+    { "pattern": "entruempelung-thueringen.com/*", "zone_name": "entruempelung-thueringen.com" },
+    { "pattern": "www.entruempelung-thueringen.com/*", "zone_name": "entruempelung-thueringen.com" }
   ]
 }
