@@ -1,14 +1,11 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "entruempelung-thueringen",
-  "compatibility_date": "2026-05-20",
-  "observability": {
-    "enabled": true
-  },
+  // Cloudflare Pages / Workers config für kammerjaeger-thueringen.de
+  "name": "kammerjaeger-thueringen",
+  "compatibility_date": "2026-07-02",
   "assets": {
-    "directory": "."
+    // Statische HTML-Dateien aus dem Repo-Root ausliefern
+    "directory": ".",
+    "binding": "ASSETS"
   },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+  "compatibility_flags": ["nodejs_compat"]
 }
