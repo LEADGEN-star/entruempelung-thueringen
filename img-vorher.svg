@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480">
+  <defs>
+    <linearGradient id="wallG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4c9b8"/>
+      <stop offset="100%" stop-color="#c4b8a5"/>
+    </linearGradient>
+    <linearGradient id="floorG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a89880"/>
+      <stop offset="100%" stop-color="#8c7d68"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background wall -->
+  <rect width="900" height="480" fill="url(#wallG)"/>
+  <!-- Floor -->
+  <polygon points="0,320 900,280 900,480 0,480" fill="url(#floorG)"/>
+
+  <!-- Window (boarded up / dirty) -->
+  <rect x="620" y="60" width="160" height="130" rx="4" fill="#8fa8b8" opacity="0.5"/>
+  <rect x="620" y="60" width="160" height="130" rx="4" fill="none" stroke="#7a8f9e" stroke-width="6"/>
+  <line x1="700" y1="60" x2="700" y2="190" stroke="#7a8f9e" stroke-width="4"/>
+  <line x1="620" y1="125" x2="780" y2="125" stroke="#7a8f9e" stroke-width="4"/>
+
+  <!-- Old wardrobe -->
+  <rect x="30" y="100" width="130" height="220" rx="3" fill="#6b5a44"/>
+  <rect x="35" y="105" width="58" height="210" rx="2" fill="#7a6852"/>
+  <rect x="97" y="105" width="58" height="210" rx="2" fill="#7a6852"/>
+  <circle cx="91" cy="215" r="7" fill="#a08060"/>
+  <circle cx="103" cy="215" r="7" fill="#a08060"/>
+
+  <!-- Stuff ON TOP of wardrobe -->
+  <rect x="30" y="72" width="65" height="28" rx="2" fill="#8b6f4e"/>
+  <rect x="100" y="58" width="50" height="42" rx="2" fill="#7a5f3e"/>
+  <rect x="108" y="50" width="34" height="12" rx="1" fill="#6a4f2e"/>
+
+  <!-- Stack of boxes left -->
+  <rect x="170" y="270" width="95" height="55" rx="3" fill="#c4934a"/>
+  <rect x="170" y="215" width="95" height="57" rx="3" fill="#d4a555"/>
+  <rect x="170" y="165" width="95" height="52" rx="3" fill="#c4934a"/>
+  <line x1="218" y1="270" x2="218" y2="325" stroke="#a07030" stroke-width="2"/>
+  <line x1="170" y1="297" x2="265" y2="297" stroke="#a07030" stroke-width="2"/>
+  <line x1="218" y1="215" x2="218" y2="272" stroke="#a07030" stroke-width="2"/>
+  <line x1="170" y1="243" x2="265" y2="243" stroke="#a07030" stroke-width="2"/>
+  <line x1="218" y1="165" x2="218" y2="217" stroke="#a07030" stroke-width="2"/>
+  <line x1="170" y1="191" x2="265" y2="191" stroke="#a07030" stroke-width="2"/>
+  <!-- tape on boxes -->
+  <rect x="195" y="268" width="46" height="6" fill="#e8c870" opacity="0.7"/>
+  <rect x="195" y="213" width="46" height="6" fill="#e8c870" opacity="0.7"/>
+
+  <!-- Old sofa -->
+  <rect x="290" y="255" width="220" height="70" rx="8" fill="#6e7a5e"/>
+  <rect x="290" y="218" width="220" height="45" rx="6" fill="#7a8868"/>
+  <rect x="290" y="218" width="40" height="107" rx="6" fill="#7a8868"/>
+  <rect x="470" y="218" width="40" height="107" rx="6" fill="#7a8868"/>
+  <!-- cushions -->
+  <rect x="338" y="222" width="58" height="38" rx="5" fill="#6e7a5e"/>
+  <rect x="402" y="222" width="58" height="38" rx="5" fill="#6e7a5e"/>
+  <!-- Stuff on sofa -->
+  <rect x="350" y="205" width="45" height="20" rx="2" fill="#c4934a"/>
+  <rect x="400" y="200" width="55" height="25" rx="2" fill="#d4a555"/>
+
+  <!-- Pile of junk on floor -->
+  <!-- Old lamp -->
+  <rect x="530" y="200" width="18" height="120" rx="2" fill="#8a7060"/>
+  <polygon points="521,200 559,200 550,165 530,165" fill="#c4a070"/>
+  <!-- Old tv/monitor -->
+  <rect x="560" y="255" width="110" height="80" rx="4" fill="#3a3a3a"/>
+  <rect x="568" y="262" width="94" height="58" rx="2" fill="#2a2a2a"/>
+  <rect x="598" y="335" width="34" height="12" fill="#3a3a3a"/>
+  <!-- scattered items -->
+  <ellipse cx="430" cy="360" rx="55" ry="18" fill="#a07858" opacity="0.7"/>
+  <rect x="460" y="340" width="35" height="25" rx="2" fill="#8b6a4a"/>
+  <rect x="380" y="350" width="45" height="18" rx="2" fill="#c4934a"/>
+  <!-- Books/papers stacked -->
+  <rect x="680" y="290" width="80" height="12" rx="1" fill="#d4b090"/>
+  <rect x="685" y="278" width="70" height="12" rx="1" fill="#c4a080"/>
+  <rect x="678" y="266" width="82" height="12" rx="1" fill="#e4c0a0"/>
+  <rect x="690" y="254" width="58" height="12" rx="1" fill="#d4b090"/>
+  <!-- Bags -->
+  <ellipse cx="760" cy="350" rx="40" ry="30" fill="#5a6a7a"/>
+  <path d="M740,325 Q760,310 780,325" fill="none" stroke="#4a5a6a" stroke-width="4"/>
+  <ellipse cx="820" cy="360" rx="30" ry="22" fill="#7a6858"/>
+
+  <!-- Dust/mess indicators -->
+  <ellipse cx="340" cy="390" rx="80" ry="12" fill="#000" opacity="0.08"/>
+  <ellipse cx="620" cy="400" rx="100" ry="14" fill="#000" opacity="0.07"/>
+
+  <!-- Cobweb in corner -->
+  <path d="M850,30 Q830,60 860,80" fill="none" stroke="#ccc" stroke-width="1" opacity="0.6"/>
+  <path d="M870,20 Q840,55 870,75" fill="none" stroke="#ccc" stroke-width="1" opacity="0.6"/>
+  <path d="M840,25 Q845,60 865,70" fill="none" stroke="#ccc" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Overlay tint to make it feel darker/older -->
+  <rect width="900" height="480" fill="#3a2010" opacity="0.18"/>
+</svg>
