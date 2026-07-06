@@ -839,10 +839,7 @@
         <h2>Jetzt kostenlos anfragen</h2>
         <p>Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
       </div>
-      <form class="form" name="kontakt" method="POST" action="https://api.web3forms.com/submit">
-        <input type="hidden" name="access_key" value="c3737ff3-c4ec-4c76-b89a-51eb8528af97">
-        <input type="hidden" name="redirect" value="https://entruempelung-thueringen.com/danke.html">
-        <input type="hidden" name="from_name" value="Entrümpelung Thüringen">
+      <form class="form" id="kontakt1">
         <div class="form-row">
           <input type="text" name="name" placeholder="Ihr Name *" required />
           <input type="tel" name="tel" placeholder="Telefon *" required />
@@ -1176,10 +1173,7 @@
         <div class="hero-trust-item"><span class="check" style="border-color:rgba(22,163,74,0.4)">✓</span> <span style="color:rgba(255,255,255,0.7)">Rückruf innerhalb 24h</span></div>
       </div>
     </div>
-    <form class="form form-dark" name="kontakt2" method="POST" action="https://api.web3forms.com/submit">
-      <input type="hidden" name="access_key" value="c3737ff3-c4ec-4c76-b89a-51eb8528af97">
-      <input type="hidden" name="redirect" value="https://entruempelung-thueringen.com/danke.html">
-      <input type="hidden" name="from_name" value="Entrümpelung Thüringen">
+    <form class="form form-dark" id="kontakt2">
       <input type="text" name="name" placeholder="Ihr Name *" required />
       <input type="tel" name="tel" placeholder="Telefon *" required />
       <select name="stadt" required>
@@ -1221,6 +1215,38 @@
     <a href="/datenschutz">Datenschutz</a>
   </p>
 </footer>
+
+<script>
+(function() {
+  const WEBHOOK = 'https://ruempler.app.n8n.cloud/webhook/6e7f9935-73a9-4794-ac30-e62df2b085a5';
+
+  function handleSubmit(form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Wird gesendet…';
+
+      const data = {};
+      new FormData(form).forEach((v, k) => data[k] = v);
+      data.seite = window.location.href;
+      data.datum = new Date().toLocaleString('de-DE', {timeZone: 'Europe/Berlin'});
+
+      try {
+        await fetch(WEBHOOK, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(data)
+        });
+      } catch(err) {}
+
+      window.location.href = '/danke.html';
+    });
+  }
+
+  document.querySelectorAll('#kontakt1, #kontakt2').forEach(handleSubmit);
+})();
+</script>
 
 </body>
 </html>
