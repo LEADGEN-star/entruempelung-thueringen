@@ -322,10 +322,8 @@
         <div class="trust-item" style="color:rgba(255,255,255,.85)">✓ Ganz Thüringen</div>
       </div>
     </div>
-    <form class="form" name="anfrage-kosten" method="POST" action="https://api.web3forms.com/submit" >
-      <input type="hidden" name="access_key" value="c3737ff3-c4ec-4c76-b89a-51eb8528af97">
-      <input type="hidden" name="redirect" value="https://entruempelung-thueringen.com/danke.html">
-      <input type="hidden" name="from_name" value="Entrümpelung Thüringen">
+    <form class="form" name="anfrage-kosten" method="POST" action="/" data-netlify="true" >
+      <input type="hidden" name="_next" value="https://entruempelung-thueringen.com/danke.html">
       <input type="text" name="name" placeholder="Ihr Name *" required />
       <input type="tel" name="tel" placeholder="Telefon *" required />
       <input type="email" name="email" placeholder="E-Mail" />
