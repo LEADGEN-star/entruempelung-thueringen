@@ -205,9 +205,7 @@
       <div class="stars">★★★★★</div>
       <h2>Kostenlos anfragen – Stadtilm</h2>
       <p class="fc-sub">Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
-      <form class="form" name="anfrage-entrumpelung-stadtilm" method="POST" action="/" data-netlify="true">
-        <input type="hidden" name="_next" value="https://entruempelung-thueringen.com/danke.html">
-        <input type="hidden" name="subject" value="Neue Anfrage: Entrümpelung Stadtilm">
+      <form class="form" name="anfrage-entrumpelung-stadtilm">
         <div class="form-row">
           <input type="text" name="name" placeholder="Ihr Name *" required />
           <input type="tel" name="tel" placeholder="Telefon *" required />
@@ -529,5 +527,30 @@
     <a href="/datenschutz">Datenschutz</a>
   </p>
 </footer>
+<script>
+(function() {
+  var WEBHOOK = "https://ruempler.app.n8n.cloud/webhook/6e7f9935-73a9-4794-ac30-e62df2b085a5";
+  var form = document.querySelector("form.form");
+  if (!form) return;
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var btn = form.querySelector("button[type=\"submit\"]");
+    btn.disabled = true;
+    btn.textContent = "Wird gesendet…";
+    var data = {};
+    new FormData(form).forEach(function(v, k) { data[k] = v; });
+    data.seite = window.location.href;
+    data.datum = new Date().toLocaleString("de-DE", {timeZone: "Europe/Berlin"});
+    fetch(WEBHOOK, {
+      method: "POST",
+      headers: {"Content-Type": "text/plain"},
+      mode: "no-cors",
+      body: JSON.stringify(data)
+    }).catch(function(){}).finally(function(){
+      window.location.href = "/danke.html";
+    });
+  });
+})();
+</script>
 </body>
 </html>
