@@ -1,4 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
-<rect width="900" height="500" fill="#251e18"/><rect x="0" y="0" width="900" height="275" fill="#352a20"/><polygon points="0,275 900,275 900,500 0,500" fill="#3a2a18"/><line x1="0" y1="320" x2="900" y2="320" stroke="#312314" stroke-width="1" opacity="0.4"/><line x1="0" y1="365" x2="900" y2="365" stroke="#312314" stroke-width="1" opacity="0.4"/><line x1="0" y1="410" x2="900" y2="410" stroke="#312314" stroke-width="1" opacity="0.4"/><line x1="0" y1="455" x2="900" y2="455" stroke="#312314" stroke-width="1" opacity="0.4"/><ellipse cx="450" cy="30" rx="120" ry="20" fill="#ffffff" opacity="0.05"/><rect x="53" y="203" width="80" height="100" fill="#000" opacity="0.25"/><rect x="50" y="200" width="80" height="100" fill="#8B7355"/><rect x="50" y="200" width="80" height="100" fill="none" stroke="#61503b" stroke-width="1" opacity="0.5"/><line x1="90" y1="200" x2="90" y2="300" stroke="#61503b" stroke-width="1" opacity="0.3"/><rect x="53" y="103" width="70" height="80" fill="#000" opacity="0.25"/><rect x="50" y="100" width="70" height="80" fill="#A0856C"/><rect x="50" y="100" width="70" height="80" fill="none" stroke="#705d4b" stroke-width="1" opacity="0.5"/><line x1="85" y1="100" x2="85" y2="180" stroke="#705d4b" stroke-width="1" opacity="0.3"/><rect x="53" y="23" width="90" height="60" fill="#000" opacity="0.25"/><rect x="50" y="20" width="90" height="60" fill="#6B5A3E"/><rect x="50" y="20" width="90" height="60" fill="none" stroke="#4a3e2b" stroke-width="1" opacity="0.5"/><line x1="95" y1="20" x2="95" y2="80" stroke="#4a3e2b" stroke-width="1" opacity="0.3"/><rect x="53" y="-37" width="75" height="70" fill="#000" opacity="0.25"/><rect x="50" y="-40" width="75" height="70" fill="#9B8060"/><rect x="50" y="-40" width="75" height="70" fill="none" stroke="#6c5943" stroke-width="1" opacity="0.5"/><line x1="87" y1="-40" x2="87" y2="30" stroke="#6c5943" stroke-width="1" opacity="0.3"/><rect x="173" y="253" width="100" height="80" fill="#000" opacity="0.25"/><rect x="170" y="250" width="100" height="80" fill="#C4A882"/><rect x="170" y="250" width="100" height="80" fill="none" stroke="#89755b" stroke-width="1" opacity="0.5"/><line x1="220" y1="250" x2="220" y2="330" stroke="#89755b" stroke-width="1" opacity="0.3"/><rect x="173" y="173" width="85" height="90" fill="#000" opacity="0.25"/><rect x="170" y="170" width="85" height="90" fill="#B8956A"/><rect x="170" y="170" width="85" height="90" fill="none" stroke="#80684a" stroke-width="1" opacity="0.5"/><line x1="212" y1="170" x2="212" y2="260" stroke="#80684a" stroke-width="1" opacity="0.3"/><rect x="173" y="83" width="95" height="70" fill="#000" opacity="0.25"/><rect x="170" y="80" width="95" height="70" fill="#D4B890"/><rect x="170" y="80" width="95" height="70" fill="none" stroke="#948064" stroke-width="1" opacity="0.5"/><line x1="217" y1="80" x2="217" y2="150" stroke="#948064" stroke-width="1" opacity="0.3"/><rect x="313" y="223" width="120" height="110" fill="#000" opacity="0.25"/><rect x="310" y="220" width="120" height="110" fill="#7A6248"/><rect x="310" y="220" width="120" height="110" fill="none" stroke="#554432" stroke-width="1" opacity="0.5"/><line x1="370" y1="220" x2="370" y2="330" stroke="#554432" stroke-width="1" opacity="0.3"/><rect x="313" y="113" width="100" height="90" fill="#000" opacity="0.25"/><rect x="310" y="110" width="100" height="90" fill="#8B7355"/><rect x="310" y="110" width="100" height="90" fill="none" stroke="#61503b" stroke-width="1" opacity="0.5"/><line x1="360" y1="110" x2="360" y2="200" stroke="#61503b" stroke-width="1" opacity="0.3"/><rect x="313" y="23" width="110" height="80" fill="#000" opacity="0.25"/><rect x="310" y="20" width="110" height="80" fill="#A0856C"/><rect x="310" y="20" width="110" height="80" fill="none" stroke="#705d4b" stroke-width="1" opacity="0.5"/><line x1="365" y1="20" x2="365" y2="100" stroke="#705d4b" stroke-width="1" opacity="0.3"/><rect x="313" y="-57" width="90" height="60" fill="#000" opacity="0.25"/><rect x="310" y="-60" width="90" height="60" fill="#6B5A3E"/><rect x="310" y="-60" width="90" height="60" fill="none" stroke="#4a3e2b" stroke-width="1" opacity="0.5"/><line x1="355" y1="-60" x2="355" y2="0" stroke="#4a3e2b" stroke-width="1" opacity="0.3"/><rect x="483" y="203" width="90" height="120" fill="#000" opacity="0.25"/><rect x="480" y="200" width="90" height="120" fill="#C4A882"/><rect x="480" y="200" width="90" height="120" fill="none" stroke="#89755b" stroke-width="1" opacity="0.5"/><line x1="525" y1="200" x2="525" y2="320" stroke="#89755b" stroke-width="1" opacity="0.3"/><rect x="483" y="83" width="80" height="100" fill="#000" opacity="0.25"/><rect x="480" y="80" width="80" height="100" fill="#B8956A"/><rect x="480" y="80" width="80" height="100" fill="none" stroke="#80684a" stroke-width="1" opacity="0.5"/><line x1="520" y1="80" x2="520" y2="180" stroke="#80684a" stroke-width="1" opacity="0.3"/><rect x="483" y="-17" width="95" height="80" fill="#000" opacity="0.25"/><rect x="480" y="-20" width="95" height="80" fill="#A08060"/><rect x="480" y="-20" width="95" height="80" fill="none" stroke="#705943" stroke-width="1" opacity="0.5"/><line x1="527" y1="-20" x2="527" y2="60" stroke="#705943" stroke-width="1" opacity="0.3"/><rect x="483" y="-97" width="85" height="70" fill="#000" opacity="0.25"/><rect x="480" y="-100" width="85" height="70" fill="#C8A870"/><rect x="480" y="-100" width="85" height="70" fill="none" stroke="#8c754e" stroke-width="1" opacity="0.5"/><line x1="522" y1="-100" x2="522" y2="-30" stroke="#8c754e" stroke-width="1" opacity="0.3"/><rect x="623" y="233" width="110" height="90" fill="#000" opacity="0.25"/><rect x="620" y="230" width="110" height="90" fill="#8B7355"/><rect x="620" y="230" width="110" height="90" fill="none" stroke="#61503b" stroke-width="1" opacity="0.5"/><line x1="675" y1="230" x2="675" y2="320" stroke="#61503b" stroke-width="1" opacity="0.3"/><rect x="623" y="143" width="95" height="80" fill="#000" opacity="0.25"/><rect x="620" y="140" width="95" height="80" fill="#9B8060"/><rect x="620" y="140" width="95" height="80" fill="none" stroke="#6c5943" stroke-width="1" opacity="0.5"/><line x1="667" y1="140" x2="667" y2="220" stroke="#6c5943" stroke-width="1" opacity="0.3"/><rect x="623" y="63" width="100" height="70" fill="#000" opacity="0.25"/><rect x="620" y="60" width="100" height="70" fill="#7A6248"/><rect x="620" y="60" width="100" height="70" fill="none" stroke="#554432" stroke-width="1" opacity="0.5"/><line x1="670" y1="60" x2="670" y2="130" stroke="#554432" stroke-width="1" opacity="0.3"/><rect x="763" y="213" width="85" height="110" fill="#000" opacity="0.25"/><rect x="760" y="210" width="85" height="110" fill="#C4A882"/><rect x="760" y="210" width="85" height="110" fill="none" stroke="#89755b" stroke-width="1" opacity="0.5"/><line x1="802" y1="210" x2="802" y2="320" stroke="#89755b" stroke-width="1" opacity="0.3"/><rect x="763" y="103" width="75" height="90" fill="#000" opacity="0.25"/><rect x="760" y="100" width="75" height="90" fill="#A0856C"/><rect x="760" y="100" width="75" height="90" fill="none" stroke="#705d4b" stroke-width="1" opacity="0.5"/><line x1="797" y1="100" x2="797" y2="190" stroke="#705d4b" stroke-width="1" opacity="0.3"/><rect x="763" y="13" width="90" height="80" fill="#000" opacity="0.25"/><rect x="760" y="10" width="90" height="80" fill="#6B5A3E"/><rect x="760" y="10" width="90" height="80" fill="none" stroke="#4a3e2b" stroke-width="1" opacity="0.5"/><line x1="805" y1="10" x2="805" y2="90" stroke="#4a3e2b" stroke-width="1" opacity="0.3"/><line x1="0" y1="0" x2="450" y2="500" stroke="#1f1913" stroke-width="18" opacity="0.6"/><line x1="900" y1="0" x2="450" y2="500" stroke="#1f1913" stroke-width="18" opacity="0.6"/><line x1="0" y1="150" x2="900" y2="150" stroke="#1f1913" stroke-width="10" opacity="0.4"/><rect width="900" height="500" fill="#000" opacity="0.15"/><radialGradient id="vig3b" cx="50%" cy="50%" r="70%"><stop offset="0%" stop-color="transparent"/><stop offset="100%" stop-color="#000" stop-opacity="0.5"/></radialGradient><rect width="900" height="500" fill="url(#vig3b)"/><rect x="0" y="446" width="900" height="54" fill="#000" opacity="0.6"/>
-    <text x="24" y="482" font-family="Arial Black, Arial" font-weight="900" font-size="28" fill="#fff" letter-spacing="2">VORHER</text>
+<defs>
+  <linearGradient id="v3-ceil" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#c4bcb0"/><stop offset="100%" stop-color="#b4aca0"/>
+  </linearGradient>
+  <linearGradient id="v3-back" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#aca498"/><stop offset="100%" stop-color="#9c9488"/>
+  </linearGradient>
+  <linearGradient id="v3-floor" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#786858"/><stop offset="100%" stop-color="#584840"/>
+  </linearGradient>
+  <radialGradient id="v3-win" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#3a4858" stop-opacity="0.8"/><stop offset="100%" stop-color="#1a2030"/>
+  </radialGradient>
+  <radialGradient id="v3-vig" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="transparent"/><stop offset="100%" stop-color="#000" stop-opacity="0.60"/>
+  </radialGradient>
+</defs>
+<rect width="900" height="500" fill="#241c18"/>
+<polygon points="0,0 900,0 720,85 180,85" fill="url(#v3-ceil)"/>
+<polygon points="180,85 720,85 720,285 180,285" fill="url(#v3-back)"/>
+<polygon points="0,0 180,85 180,285 0,500" fill="#8c8480"/>
+<polygon points="900,0 720,85 720,285 900,500" fill="#847c78"/>
+<polygon points="0,500 900,500 720,285 180,285" fill="url(#v3-floor)"/>
+<!-- floor lines -->
+<line x1="450" y1="285" x2="0" y2="500" stroke="#685848" stroke-width="1.2" opacity="0.5"/>
+<line x1="450" y1="285" x2="200" y2="500" stroke="#685848" stroke-width="1" opacity="0.4"/>
+<line x1="450" y1="285" x2="380" y2="500" stroke="#685848" stroke-width="1" opacity="0.35"/>
+<line x1="450" y1="285" x2="520" y2="500" stroke="#685848" stroke-width="1" opacity="0.35"/>
+<line x1="450" y1="285" x2="700" y2="500" stroke="#685848" stroke-width="1" opacity="0.4"/>
+<line x1="450" y1="285" x2="900" y2="500" stroke="#685848" stroke-width="1.2" opacity="0.5"/>
+<!-- dirty window -->
+<rect x="340" y="108" width="220" height="148" fill="url(#v3-win)"/>
+<rect x="340" y="108" width="220" height="148" fill="none" stroke="#847c78" stroke-width="7"/>
+<line x1="450" y1="108" x2="450" y2="256" stroke="#847c78" stroke-width="5"/>
+<line x1="340" y1="182" x2="560" y2="182" stroke="#847c78" stroke-width="5"/>
+<!-- old bookshelf left wall -->
+<rect x="182" y="108" width="110" height="175" fill="#3e3020"/>
+<line x1="237" y1="108" x2="237" y2="283" stroke="#2e2010" stroke-width="2"/>
+<rect x="186" y="118" width="47" height="22" fill="#5a4030" opacity="0.9"/>
+<rect x="241" y="118" width="47" height="22" fill="#4e3828" opacity="0.9"/>
+<rect x="186" y="148" width="47" height="16" fill="#6a5040" opacity="0.85"/>
+<rect x="241" y="148" width="47" height="16" fill="#624838" opacity="0.85"/>
+<rect x="186" y="172" width="47" height="18" fill="#503828" opacity="0.9"/>
+<rect x="241" y="172" width="47" height="18" fill="#584030" opacity="0.9"/>
+<rect x="186" y="198" width="47" height="14" fill="#4a3020" opacity="0.85"/>
+<rect x="186" y="220" width="47" height="20" fill="#5e4838" opacity="0.8"/>
+<rect x="241" y="198" width="47" height="14" fill="#523828" opacity="0.85"/>
+<rect x="241" y="220" width="47" height="20" fill="#483020" opacity="0.8"/>
+<!-- items on top of bookshelf -->
+<rect x="188" y="96" width="28" height="14" rx="1" fill="#8a7060" opacity="0.85"/>
+<rect x="220" y="100" width="18" height="10" rx="1" fill="#7a6050" opacity="0.8"/>
+<!-- sofa center-left -->
+<rect x="205" y="230" width="175" height="55" rx="4" fill="#5a4c3c"/>
+<rect x="205" y="202" width="175" height="32" rx="3" fill="#6a5848"/>
+<rect x="200" y="206" width="18" height="62" rx="3" fill="#4a3c2c"/>
+<rect x="380" y="206" width="18" height="62" rx="3" fill="#4a3c2c"/>
+<rect x="205" y="281" width="175" height="5" fill="#18100a" opacity="0.5"/>
+<!-- throw pillow on sofa -->
+<rect x="260" y="208" width="52" height="28" rx="4" fill="#8a6858" opacity="0.85"/>
+<!-- stacked boxes center-right -->
+<rect x="490" y="236" width="118" height="50" fill="#b48838"/>
+<polygon points="490,236 608,236 622,222 506,222" fill="#c49848"/>
+<polygon points="608,236 622,222 622,286 608,286" fill="#987028"/>
+<line x1="549" y1="236" x2="549" y2="286" stroke="#907020" stroke-width="2" opacity="0.65"/>
+<rect x="500" y="188" width="106" height="50" fill="#b89040"/>
+<polygon points="500,188 606,188 618,174 512,174" fill="#c8a050"/>
+<polygon points="606,188 618,174 618,238 606,238" fill="#a07830"/>
+<rect x="508" y="142" width="96" height="48" fill="#c09848"/>
+<polygon points="508,142 604,142 616,128 520,128" fill="#d0a858"/>
+<!-- old lamp far right -->
+<line x1="665" y1="160" x2="672" y2="285" stroke="#504840" stroke-width="6"/>
+<ellipse cx="670" cy="286" rx="20" ry="6" fill="#3a3028"/>
+<polygon points="636,160 700,160 694,112 642,112" fill="#786848" opacity="0.92"/>
+<!-- leaning frames against right wall -->
+<rect x="728" y="210" width="64" height="54" rx="2" fill="#4a3c28" transform="rotate(-8 728 264)"/>
+<rect x="734" y="216" width="52" height="42" rx="1" fill="#2a1c10" transform="rotate(-8 728 264)"/>
+<rect x="748" y="218" width="58" height="48" rx="2" fill="#50402c" transform="rotate(7 748 266)"/>
+<rect x="754" y="224" width="46" height="36" rx="1" fill="#281e14" transform="rotate(7 748 266)"/>
+<!-- misc items floor -->
+<rect x="430" y="336" width="40" height="24" rx="3" fill="#584838"/>
+<rect x="560" y="352" width="34" height="16" rx="2" fill="#4c3e30"/>
+<ellipse cx="315" cy="335" rx="54" ry="22" fill="#282620"/>
+<ellipse cx="310" cy="325" rx="50" ry="19" fill="#302e28"/>
+<circle cx="310" cy="307" r="8" fill="#181616"/>
+<!-- grime -->
+<rect width="900" height="500" fill="#28180a" opacity="0.13"/>
+<rect width="900" height="500" fill="url(#v3-vig)"/>
+<rect x="0" y="448" width="900" height="52" fill="#000" opacity="0.68"/>
+<text x="22" y="483" font-family="Arial Black,Arial" font-weight="900" font-size="21" fill="#fff" letter-spacing="1">Vor der Entrümpelung</text>
 </svg>
