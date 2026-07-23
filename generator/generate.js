@@ -9,15 +9,16 @@ cities.forEach(city => {
     .replaceAll("{{stadt}}", city.stadt)
     .replaceAll("{{slug}}", city.slug)
     .replaceAll("{{ortsteile}}", city.ortsteile)
-    .replaceAll("{{beschreibung}}", city.beschreibung)
-    .replaceAll("{{preis}}", city.preis)
-    .replaceAll("{{besonderheit}}", city.besonderheit);
+    .replaceAll("{{besonderheit}}", city.besonderheit || "")
+    .replaceAll("{{lokaler_text}}", city.lokaler_text || "")
+    .replaceAll("{{typische_auftraege}}", city.typische_auftraege || "")
+    .replaceAll("{{beschreibung}}", city.beschreibung || "")
+    .replaceAll("{{preis}}", city.preis || "");
 
- fs.writeFileSync(
-  `entrumpelung-${city.slug}.html`,
-  page
-);
+  fs.writeFileSync(
+    `entrumpelung-${city.slug}.html`,
+    page
+  );
 
-console.log(`Erstellt: ${city.stadt}`);
-
+  console.log(`Erstellt: ${city.stadt}`);
 });
