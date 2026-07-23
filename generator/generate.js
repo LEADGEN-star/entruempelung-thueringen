@@ -13,11 +13,11 @@ cities.forEach(city => {
     .replaceAll("{{preis}}", city.preis)
     .replaceAll("{{besonderheit}}", city.besonderheit);
 
-  fs.writeFileSync(
-    `../entrumpelung-${city.slug}.html`,
-    page
-  );
+ fs.writeFileSync(
+  `entrumpelung-${city.slug}.html`,
+  page
+);
 
-  console.log(`Erstellt: ${city.stadt}`);
+console.log(`Erstellt: ${city.stadt}`);
 
 });

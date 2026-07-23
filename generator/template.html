@@ -190,7 +190,14 @@
       <div class="breadcrumb"><a href="/">Startseite</a> › Entrümpelung {{stadt}}</div>
       <div class="hero-eyebrow">Geprüfte Betriebe · {{stadt}} & Umgebung</div>
       <h1>Entrümpelung<br><em>{{stadt}}</em> –<br>schnell & fair.</h1>
-      <p class="hero-sub">Professionelle Entrümpelung in {{stadt}} – für Haushaltsauflösung, Kellerentrümpelung und Wohnungsräumung. Kostenlose Besichtigung, verbindlicher Festpreis.</p>
+      <p>{{beschreibung}}</p>
+
+<p><strong>Gebiete:</strong> {{ortsteile}}</p>
+
+<p><strong>Preise:</strong> {{preis}}</p>
+
+<p>{{besonderheit}}</p>
+     <p class="hero-sub">{{beschreibung}}</p>
       <div class="hero-trust">
         <div class="hero-trust-item"><span class="check">✓</span> Kostenlose Besichtigung vor Ort</div>
         <div class="hero-trust-item"><span class="check">✓</span> Verbindlicher Festpreis – keine Nachzahlungen</div>
@@ -369,7 +376,7 @@
   <div class="container">
     <div class="section-tag">Kosten</div>
     <h2 class="section-h">Was kostet eine Entrümpelung in {{stadt}}?</h2>
-    <p class="section-sub">Richtwerte für geprüfte Betriebe in {{stadt}}. Verbindlicher Festpreis nach kostenloser Besichtigung – keine Überraschungen.</p>
+   <p class="section-sub">{{preis}}</p>
     <div class="price-grid">
       
       <div class="price-card">
@@ -412,7 +419,13 @@
     <p style="margin-top:1.2rem;font-size:0.82rem;color:var(--muted)">* Alle Preise sind Richtwerte. Der genaue Preis hängt von Größe, Etage, Zugänglichkeit und Inventar ab.</p>
   </div>
 </section>
-
+<section class="section">
+  <div class="container">
+    <div class="section-tag">Über {{stadt}}</div>
+    <h2 class="section-h">Entrümpelung in {{stadt}} mit lokaler Erfahrung</h2>
+    <p class="section-sub">{{besonderheit}}</p>
+  </div>
+</section>
 <!-- FAQ -->
 <section class="section">
   <div class="container">
@@ -425,7 +438,7 @@
       </details>
       <details class="faq-item">
         <summary class="faq-q">Werden auch die Ortsteile rund um {{stadt}} bedient?</summary>
-        <div class="faq-a">Ja – wir arbeiten, die in {{stadt}} und den umliegenden Ortschaften wie Langewiesen, Gehren, Martinroda, Geraberg und Elgersburg tätig sind.</div>
+       <div class="faq-a">Ja – wir arbeiten in {{stadt}} und den umliegenden Ortsteilen wie {{ortsteile}}.</div>
       </details>
       <details class="faq-item">
         <summary class="faq-q">Wie schnell ist ein Termin in {{stadt}} möglich?</summary>
