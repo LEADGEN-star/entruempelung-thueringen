@@ -1,8 +1,11 @@
-const fs = require("fs");
+git add generator/generate.jsconst fs = require("fs");
 
 const template = fs.readFileSync("./generator/template.html", "utf8");
 const cities = JSON.parse(fs.readFileSync("./generator/cities.json", "utf8"));
+<<<<<<< HEAD
 
+=======
+>>>>>>> 572b444 (Add city data fields to generator)
 cities.forEach(city => {
 
   let page = template
@@ -17,3 +20,10 @@ cities.forEach(city => {
   console.log(`Erstellt: ${city.stadt}`);
 
 });
+git add generator/generate.js
+git rebase --continue
+
+
+
+
+
