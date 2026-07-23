@@ -1,14 +1,42 @@
 [
   {
     "stadt": "Ilmenau",
-    "slug": "ilmenau"
+    "slug": "ilmenau",
+    "ortsteile": "Gehren, Langewiesen, Manebach, Unterpörlitz",
+    "beschreibung": "Entrümpelung in Ilmenau für Wohnungen, Häuser, Keller und Gewerberäume. Schnelle Räumungen für Privatpersonen, Vermieter und Unternehmen.",
+    "preis": "Kellerentrümpelungen ab 120 €, Wohnungen meist ab 200 €",
+    "besonderheit": "Universitätsstadt mit vielen Studentenwohnungen und regelmäßigen Wohnungsauflösungen"
   },
   {
     "stadt": "Erfurt",
-    "slug": "erfurt"
+    "slug": "erfurt",
+    "ortsteile": "Altstadt, Gispersleben, Bindersleben, Daberstedt",
+    "beschreibung": "Professionelle Entrümpelung in Erfurt für Haushalte, Immobilien und Gewerbe. Von der Kellerauflösung bis zur kompletten Haushaltsauflösung.",
+    "preis": "Faire Preise nach Besichtigung",
+    "besonderheit": "Landeshauptstadt mit vielen Wohnungen, Immobilien und Gewerbeobjekten"
   },
   {
     "stadt": "Jena",
-    "slug": "jena"
+    "slug": "jena",
+    "ortsteile": "Winzerla, Lobeda, Zwätzen, Göschwitz",
+    "beschreibung": "Entrümpelung in Jena für Wohnungen, Häuser und Firmen. Zuverlässige Räumung mit transparenter Preisgestaltung.",
+    "preis": "Individuelle Festpreise nach Aufwand",
+    "besonderheit": "Universitätsstadt mit vielen Mietwohnungen und häufigen Umzügen"
+  },
+  {
+    "stadt": "Gera",
+    "slug": "gera",
+    "ortsteile": "Debschwitz, Bieblach, Lusan",
+    "beschreibung": "Entrümpelung in Gera für private Haushalte, Nachlässe und Immobilienbesitzer.",
+    "preis": "Kostenlose Einschätzung möglich",
+    "besonderheit": "Viele Altbauwohnungen und Immobilien mit Räumbedarf"
+  },
+  {
+    "stadt": "Weimar",
+    "slug": "weimar",
+    "ortsteile": "Schöndorf, Ehringsdorf, Tiefurt",
+    "beschreibung": "Entrümpelung in Weimar für Wohnungen, Keller, Dachböden und Gewerberäume.",
+    "preis": "Festpreis nach Besichtigung",
+    "besonderheit": "Historische Stadt mit vielen privaten und gewerblichen Immobilien"
   }
 ]
