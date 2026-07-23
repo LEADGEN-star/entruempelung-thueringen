@@ -38,5 +38,13 @@
     "beschreibung": "Entrümpelung in Weimar für Wohnungen, Keller, Dachböden und Gewerberäume.",
     "preis": "Festpreis nach Besichtigung",
     "besonderheit": "Historische Stadt mit vielen privaten und gewerblichen Immobilien"
-  }
+  },
+{
+  "stadt": "Eisenach",
+  "slug": "eisenach",
+  "ortsteile": "Neukirchen, Stedtfeld, Hörschel, Stockhausen",
+  "beschreibung": "Entrümpelung in Eisenach für Wohnungen, Häuser, Keller und Gewerbe. Zuverlässige Räumungen für Privatpersonen, Vermieter und Unternehmen.",
+  "preis": "Faire Preise nach kostenloser Besichtigung",
+  "besonderheit": "Historische Stadt mit vielen Altbauten, Immobilien und Haushaltsauflösungen"
+}
 ]
