@@ -1,16 +1,17 @@
-git add generator/generate.jsconst fs = require("fs");
+const fs = require("fs");
 
 const template = fs.readFileSync("./generator/template.html", "utf8");
 const cities = JSON.parse(fs.readFileSync("./generator/cities.json", "utf8"));
-<<<<<<< HEAD
 
-=======
->>>>>>> 572b444 (Add city data fields to generator)
 cities.forEach(city => {
 
   let page = template
     .replaceAll("{{stadt}}", city.stadt)
-    .replaceAll("{{slug}}", city.slug);
+    .replaceAll("{{slug}}", city.slug)
+    .replaceAll("{{ortsteile}}", city.ortsteile)
+    .replaceAll("{{beschreibung}}", city.beschreibung)
+    .replaceAll("{{preis}}", city.preis)
+    .replaceAll("{{besonderheit}}", city.besonderheit);
 
   fs.writeFileSync(
     `../entrumpelung-${city.slug}.html`,
@@ -20,10 +21,3 @@ cities.forEach(city => {
   console.log(`Erstellt: ${city.stadt}`);
 
 });
-git add generator/generate.js
-git rebase --continue
-
-
-
-
-
