@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-const template = fs.readFileSync("./template.html", "utf8");
-const cities = JSON.parse(fs.readFileSync("./cities.json", "utf8"));
+const template = fs.readFileSync("./generator/template.html", "utf8");
+const cities = JSON.parse(fs.readFileSync("./generator/cities.json", "utf8"));
 
 cities.forEach(city => {
 
