@@ -84,8 +84,21 @@
     .form { display: flex; flex-direction: column; gap: 0.7rem; }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
     @media (max-width: 400px) { .form-row { grid-template-columns: 1fr; } }
-    .form input, .form select, .form textarea { width: 100%; padding: 0.7rem 0.9rem; border: 1.5px solid var(--border); border-radius: 8px; background: var(--off); color: var(--text); font-family: 'Inter', sans-serif; font-size: 0.9rem; outline: none; transition: border-color 0.15s; -webkit-appearance: none; }
-    .form input:focus, .form select:focus, .form textarea:focus { border-color: var(--orange); background: #fff; }
+.form input, .form select, .form textarea { 
+  width: 100%; 
+  padding: 0.7rem 0.9rem; 
+  border: 1.5px solid var(--border); 
+  border-radius: 8px; 
+  background: var(--off); 
+  color: var(--text); 
+  font-family: 'Inter', sans-serif; 
+  font-size: 0.9rem; 
+  outline: none; 
+  transition: border-color 0.15s; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}    .form input:focus, .form select:focus, .form textarea:focus { border-color: var(--orange); background: #fff; }
     .form input::placeholder, .form textarea::placeholder { color: #94a3b8; }
     .form textarea { resize: vertical; min-height: 75px; }
     .btn-submit { background: var(--orange); color: #fff; font-weight: 800; font-size: 0.95rem; padding: 0.85rem 1.5rem; border-radius: 8px; border: none; cursor: pointer; width: 100%; transition: background 0.15s; letter-spacing: -0.01em; }
