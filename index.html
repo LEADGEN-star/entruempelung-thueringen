@@ -775,8 +775,9 @@ appearance: none;    }
       bottom: 0;
       left: 0;
       right: 0;
-      background: var(--dark);
-      border-top: 1px solid rgba(255,255,255,0.1);
+      background: #fff;
+      border-top: 1px solid var(--border);
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
       padding: 0.75rem 1rem;
       z-index: 150;
       gap: 0.6rem;
@@ -790,7 +791,7 @@ appearance: none;    }
       font-size: 0.9rem;
       text-decoration: none;
     }
-    .sticky-mobile .s-tel { background: rgba(255,255,255,0.1); color: #fff; }
+    .sticky-mobile .s-tel { background: var(--off); color: var(--dark); border: 1px solid var(--border); }
     .sticky-mobile .s-cta { background: var(--orange); color: #fff; }
     @media (max-width: 768px) { .sticky-mobile { display: flex; } body { padding-bottom: 72px; } }
   </style>
@@ -1291,7 +1292,7 @@ appearance: none;    }
 
 <!-- MOBILE STICKY CTA -->
 <div class="sticky-mobile">
-  <a href="tel:+4915730064205" class="s-tel">📞 Anrufen</a>
+  <a href="tel:+4915730064205" class="s-tel">Anrufen</a>
   <a href="#anfrage" class="s-cta">Kostenlos anfragen →</a>
 </div>
 
