@@ -91,7 +91,7 @@
 
     /* ─── NAV ─── */
     nav {
-      background: var(--dark);
+      background: #fff;
       padding: 0 1.5rem;
       height: 60px;
       display: flex;
@@ -100,12 +100,13 @@
       position: sticky;
       top: 0;
       z-index: 200;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     }
     .logo img { height: 38px; width: auto; }
     .nav-right { display: flex; align-items: center; gap: 0.75rem; }
     .nav-tel {
-      color: rgba(255,255,255,0.85);
+      color: var(--dark2);
       font-weight: 600;
       font-size: 0.875rem;
       text-decoration: none;
@@ -114,11 +115,11 @@
       gap: 0.4rem;
       padding: 0.45rem 0.9rem;
       border-radius: 6px;
-      border: 1px solid rgba(255,255,255,0.15);
+      border: 1px solid var(--border);
       transition: border-color 0.15s, color 0.15s;
       white-space: nowrap;
     }
-    .nav-tel:hover { border-color: var(--orange); color: #fff; }
+    .nav-tel:hover { border-color: var(--orange); color: var(--orange); }
     .nav-cta {
       background: var(--orange);
       color: #fff;
@@ -138,11 +139,12 @@
 
     /* ─── HERO ─── */
     .hero {
-      background: var(--dark);
+      background: #fff;
       background-image:
-        radial-gradient(ellipse 70% 60% at 100% 0%, rgba(232,93,4,0.12) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 50% at 0% 100%, rgba(232,93,4,0.06) 0%, transparent 50%);
+        radial-gradient(ellipse 70% 60% at 100% 0%, rgba(232,93,4,0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 50% at 0% 100%, rgba(232,93,4,0.04) 0%, transparent 50%);
       padding: 4rem 1.5rem 4.5rem;
+      border-bottom: 1px solid var(--border);
     }
     .hero-grid {
       max-width: 1100px;
@@ -160,9 +162,9 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: rgba(232,93,4,0.15);
-      border: 1px solid rgba(232,93,4,0.3);
-      color: #fb923c;
+      background: rgba(232,93,4,0.08);
+      border: 1px solid rgba(232,93,4,0.25);
+      color: var(--orange);
       font-size: 0.8rem;
       font-weight: 600;
       padding: 0.35rem 0.85rem;
@@ -170,13 +172,13 @@
       margin-bottom: 1.5rem;
       letter-spacing: 0.03em;
     }
-    .hero-eyebrow::before { content: '●'; font-size: 0.55rem; color: #fb923c; }
+    .hero-eyebrow::before { content: '●'; font-size: 0.55rem; color: var(--orange); }
 
     .hero h1 {
       font-size: clamp(2.2rem, 5vw, 3.6rem);
       font-weight: 900;
       line-height: 1.05;
-      color: #fff;
+      color: var(--dark);
       letter-spacing: -0.02em;
       margin-bottom: 1.25rem;
     }
@@ -188,7 +190,7 @@
 
     .hero-sub {
       font-size: 1.05rem;
-      color: rgba(255,255,255,0.65);
+      color: var(--muted);
       max-width: 480px;
       line-height: 1.7;
       margin-bottom: 2rem;
@@ -203,32 +205,32 @@
       display: flex;
       align-items: center;
       gap: 0.7rem;
-      color: rgba(255,255,255,0.8);
+      color: var(--text);
       font-size: 0.92rem;
       font-weight: 500;
     }
     .hero-trust-item .check {
       width: 20px;
       height: 20px;
-      background: rgba(22,163,74,0.2);
-      border: 1px solid rgba(22,163,74,0.4);
+      background: rgba(22,163,74,0.12);
+      border: 1px solid rgba(22,163,74,0.35);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
       font-size: 0.65rem;
-      color: #4ade80;
+      color: #16a34a;
     }
 
     .hero-tel-block {
       margin-top: 2.2rem;
       padding-top: 2rem;
-      border-top: 1px solid rgba(255,255,255,0.1);
+      border-top: 1px solid var(--border);
     }
     .hero-tel-block p {
       font-size: 0.8rem;
-      color: rgba(255,255,255,0.4);
+      color: var(--muted);
       margin-bottom: 0.5rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -237,7 +239,7 @@
     .hero-tel-block a {
       font-size: 1.6rem;
       font-weight: 800;
-      color: #fff;
+      color: var(--dark);
       text-decoration: none;
       letter-spacing: -0.02em;
       transition: color 0.15s;
@@ -249,7 +251,7 @@
       background: #fff;
       border-radius: 16px;
       padding: 2rem;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.05);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.10), 0 0 0 1px var(--border);
     }
     .form-card-header {
       margin-bottom: 1.4rem;
@@ -799,7 +801,7 @@ appearance: none;    }
 <nav>
   <a href="/" class="logo"><img src="/logo.svg" alt="Entrümpelung Thüringen" width="180" height="38" /></a>
   <div class="nav-right">
-    <a href="tel:+4915730064205" class="nav-tel">📞 <span class="tel-text">+49 157 30064205</span></a>
+    <a href="tel:+4915730064205" class="nav-tel"><span class="tel-text">+49 157 30064205</span></a>
     <a href="#anfrage" class="nav-cta">Jetzt anfragen →</a>
   </div>
 </nav>
@@ -809,7 +811,7 @@ appearance: none;    }
   <div class="hero-grid">
     <!-- LEFT: Headline + Trust -->
     <div>
-      <div class="hero-eyebrow">Geprüfte Betriebe · Ganz Thüringen</div>
+      <div class="hero-eyebrow">Entrümpelung Thüringen · Festpreis & Termin in 48h</div>
       <h1>Entrümpelung in<br><em>Thüringen</em> –<br>schnell, fair & stressfrei.</h1>
       <p class="hero-sub">
         Wir organisieren Ihnen sofort eine professionelle Entrümpelung in Ihrer Region – mit kostenloser Besichtigung und verbindlichem Festpreis. Kein Risiko, kein Stress.
@@ -1004,7 +1006,7 @@ appearance: none;    }
         <p>Flexibler Wunschtermin – oft schon in 2–5 Werktagen verfügbar.</p>
       </div>
       <div class="step-cell">
-        <div class="step-icon">✅</div>
+        <div class="step-icon">04</div>
         <div class="step-num">04</div>
         <h3>Besenrein übergeben</h3>
         <p>Vollständig geräumt, besenrein übergeben – auf Wunsch mit Grundreinigung.</p>
@@ -1021,7 +1023,7 @@ appearance: none;    }
     <p class="section-sub">Von der einzelnen Kammer bis zur kompletten Haushaltsauflösung – wir finden den richtigen Betrieb.</p>
     <div class="services-grid">
       <a href="/wohnungsaufloesung" class="service-card">
-        <div class="service-icon">🏠</div>
+        <div class="service-icon">⌂</div>
         <h3>Wohnungsauflösung</h3>
         <p>Komplette Wohnungsräumung inkl. Entsorgung – ideal bei Umzug, Todesfall oder Renovierung.</p>
         <span class="service-arrow">Mehr erfahren →</span>
