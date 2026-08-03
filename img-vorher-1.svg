@@ -1,11 +1,121 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
-<rect width="900" height="500" fill="#2a2520"/><rect x="0" y="0" width="900" height="275" fill="#3a3028"/><polygon points="0,275 900,275 900,500 0,500" fill="#1a1510"/><line x1="0" y1="320" x2="900" y2="320" stroke="#16110d" stroke-width="1" opacity="0.4"/><line x1="0" y1="365" x2="900" y2="365" stroke="#16110d" stroke-width="1" opacity="0.4"/><line x1="0" y1="410" x2="900" y2="410" stroke="#16110d" stroke-width="1" opacity="0.4"/><line x1="0" y1="455" x2="900" y2="455" stroke="#16110d" stroke-width="1" opacity="0.4"/><ellipse cx="450" cy="30" rx="120" ry="20" fill="#ffffff" opacity="0.05"/><rect x="53" y="203" width="80" height="100" fill="#000" opacity="0.25"/><rect x="50" y="200" width="80" height="100" fill="#8B7355"/><rect x="50" y="200" width="80" height="100" fill="none" stroke="#61503b" stroke-width="1" opacity="0.5"/><line x1="90" y1="200" x2="90" y2="300" stroke="#61503b" stroke-width="1" opacity="0.3"/><rect x="53" y="103" width="70" height="80" fill="#000" opacity="0.25"/><rect x="50" y="100" width="70" height="80" fill="#A0856C"/><rect x="50" y="100" width="70" height="80" fill="none" stroke="#705d4b" stroke-width="1" opacity="0.5"/><line x1="85" y1="100" x2="85" y2="180" stroke="#705d4b" stroke-width="1" opacity="0.3"/><rect x="53" y="23" width="90" height="60" fill="#000" opacity="0.25"/><rect x="50" y="20" width="90" height="60" fill="#6B5A3E"/><rect x="50" y="20" width="90" height="60" fill="none" stroke="#4a3e2b" stroke-width="1" opacity="0.5"/><line x1="95" y1="20" x2="95" y2="80" stroke="#4a3e2b" stroke-width="1" opacity="0.3"/><rect x="53" y="-37" width="75" height="70" fill="#000" opacity="0.25"/><rect x="50" y="-40" width="75" height="70" fill="#9B8060"/><rect x="50" y="-40" width="75" height="70" fill="none" stroke="#6c5943" stroke-width="1" opacity="0.5"/><line x1="87" y1="-40" x2="87" y2="30" stroke="#6c5943" stroke-width="1" opacity="0.3"/><rect x="173" y="253" width="100" height="80" fill="#000" opacity="0.25"/><rect x="170" y="250" width="100" height="80" fill="#C4A882"/><rect x="170" y="250" width="100" height="80" fill="none" stroke="#89755b" stroke-width="1" opacity="0.5"/><line x1="220" y1="250" x2="220" y2="330" stroke="#89755b" stroke-width="1" opacity="0.3"/><rect x="173" y="173" width="85" height="90" fill="#000" opacity="0.25"/><rect x="170" y="170" width="85" height="90" fill="#B8956A"/><rect x="170" y="170" width="85" height="90" fill="none" stroke="#80684a" stroke-width="1" opacity="0.5"/><line x1="212" y1="170" x2="212" y2="260" stroke="#80684a" stroke-width="1" opacity="0.3"/><rect x="173" y="83" width="95" height="70" fill="#000" opacity="0.25"/><rect x="170" y="80" width="95" height="70" fill="#D4B890"/><rect x="170" y="80" width="95" height="70" fill="none" stroke="#948064" stroke-width="1" opacity="0.5"/><line x1="217" y1="80" x2="217" y2="150" stroke="#948064" stroke-width="1" opacity="0.3"/><rect x="313" y="223" width="120" height="110" fill="#000" opacity="0.25"/><rect x="310" y="220" width="120" height="110" fill="#7A6248"/><rect x="310" y="220" width="120" height="110" fill="none" stroke="#554432" stroke-width="1" opacity="0.5"/><line x1="370" y1="220" x2="370" y2="330" stroke="#554432" stroke-width="1" opacity="0.3"/><rect x="313" y="113" width="100" height="90" fill="#000" opacity="0.25"/><rect x="310" y="110" width="100" height="90" fill="#8B7355"/><rect x="310" y="110" width="100" height="90" fill="none" stroke="#61503b" stroke-width="1" opacity="0.5"/><line x1="360" y1="110" x2="360" y2="200" stroke="#61503b" stroke-width="1" opacity="0.3"/><rect x="313" y="23" width="110" height="80" fill="#000" opacity="0.25"/><rect x="310" y="20" width="110" height="80" fill="#A0856C"/><rect x="310" y="20" width="110" height="80" fill="none" stroke="#705d4b" stroke-width="1" opacity="0.5"/><line x1="365" y1="20" x2="365" y2="100" stroke="#705d4b" stroke-width="1" opacity="0.3"/><rect x="313" y="-57" width="90" height="60" fill="#000" opacity="0.25"/><rect x="310" y="-60" width="90" height="60" fill="#6B5A3E"/><rect x="310" y="-60" width="90" height="60" fill="none" stroke="#4a3e2b" stroke-width="1" opacity="0.5"/><line x1="355" y1="-60" x2="355" y2="0" stroke="#4a3e2b" stroke-width="1" opacity="0.3"/><rect x="483" y="203" width="90" height="120" fill="#000" opacity="0.25"/><rect x="480" y="200" width="90" height="120" fill="#C4A882"/><rect x="480" y="200" width="90" height="120" fill="none" stroke="#89755b" stroke-width="1" opacity="0.5"/><line x1="525" y1="200" x2="525" y2="320" stroke="#89755b" stroke-width="1" opacity="0.3"/><rect x="483" y="83" width="80" height="100" fill="#000" opacity="0.25"/><rect x="480" y="80" width="80" height="100" fill="#B8956A"/><rect x="480" y="80" width="80" height="100" fill="none" stroke="#80684a" stroke-width="1" opacity="0.5"/><line x1="520" y1="80" x2="520" y2="180" stroke="#80684a" stroke-width="1" opacity="0.3"/><rect x="483" y="-17" width="95" height="80" fill="#000" opacity="0.25"/><rect x="480" y="-20" width="95" height="80" fill="#A08060"/><rect x="480" y="-20" width="95" height="80" fill="none" stroke="#705943" stroke-width="1" opacity="0.5"/><line x1="527" y1="-20" x2="527" y2="60" stroke="#705943" stroke-width="1" opacity="0.3"/><rect x="483" y="-97" width="85" height="70" fill="#000" opacity="0.25"/><rect x="480" y="-100" width="85" height="70" fill="#C8A870"/><rect x="480" y="-100" width="85" height="70" fill="none" stroke="#8c754e" stroke-width="1" opacity="0.5"/><line x1="522" y1="-100" x2="522" y2="-30" stroke="#8c754e" stroke-width="1" opacity="0.3"/><rect x="623" y="233" width="110" height="90" fill="#000" opacity="0.25"/><rect x="620" y="230" width="110" height="90" fill="#8B7355"/><rect x="620" y="230" width="110" height="90" fill="none" stroke="#61503b" stroke-width="1" opacity="0.5"/><line x1="675" y1="230" x2="675" y2="320" stroke="#61503b" stroke-width="1" opacity="0.3"/><rect x="623" y="143" width="95" height="80" fill="#000" opacity="0.25"/><rect x="620" y="140" width="95" height="80" fill="#9B8060"/><rect x="620" y="140" width="95" height="80" fill="none" stroke="#6c5943" stroke-width="1" opacity="0.5"/><line x1="667" y1="140" x2="667" y2="220" stroke="#6c5943" stroke-width="1" opacity="0.3"/><rect x="623" y="63" width="100" height="70" fill="#000" opacity="0.25"/><rect x="620" y="60" width="100" height="70" fill="#7A6248"/><rect x="620" y="60" width="100" height="70" fill="none" stroke="#554432" stroke-width="1" opacity="0.5"/><line x1="670" y1="60" x2="670" y2="130" stroke="#554432" stroke-width="1" opacity="0.3"/><rect x="763" y="213" width="85" height="110" fill="#000" opacity="0.25"/><rect x="760" y="210" width="85" height="110" fill="#C4A882"/><rect x="760" y="210" width="85" height="110" fill="none" stroke="#89755b" stroke-width="1" opacity="0.5"/><line x1="802" y1="210" x2="802" y2="320" stroke="#89755b" stroke-width="1" opacity="0.3"/><rect x="763" y="103" width="75" height="90" fill="#000" opacity="0.25"/><rect x="760" y="100" width="75" height="90" fill="#A0856C"/><rect x="760" y="100" width="75" height="90" fill="none" stroke="#705d4b" stroke-width="1" opacity="0.5"/><line x1="797" y1="100" x2="797" y2="190" stroke="#705d4b" stroke-width="1" opacity="0.3"/><rect x="763" y="13" width="90" height="80" fill="#000" opacity="0.25"/><rect x="760" y="10" width="90" height="80" fill="#6B5A3E"/><rect x="760" y="10" width="90" height="80" fill="none" stroke="#4a3e2b" stroke-width="1" opacity="0.5"/><line x1="805" y1="10" x2="805" y2="90" stroke="#4a3e2b" stroke-width="1" opacity="0.3"/><g transform="translate(380, 310) scale(0.8)" opacity="0.7">
-              <circle cx="80" cy="80" r="50" fill="none" stroke="#444" stroke-width="6"/>
-              <circle cx="210" cy="80" r="50" fill="none" stroke="#444" stroke-width="6"/>
-              <line x1="80" y1="80" x2="145" y2="30" stroke="#555" stroke-width="5"/>
-              <line x1="145" y1="30" x2="210" y2="80" stroke="#555" stroke-width="5"/>
-              <line x1="145" y1="30" x2="145" y2="80" stroke="#555" stroke-width="4"/>
-              <line x1="130" y1="10" x2="160" y2="10" stroke="#555" stroke-width="6"/>
-            </g><rect width="900" height="500" fill="#000" opacity="0.15"/><radialGradient id="vig1b" cx="50%" cy="50%" r="70%"><stop offset="0%" stop-color="transparent"/><stop offset="100%" stop-color="#000" stop-opacity="0.5"/></radialGradient><rect width="900" height="500" fill="url(#vig1b)"/><rect x="0" y="446" width="900" height="54" fill="#000" opacity="0.6"/>
-    <text x="24" y="482" font-family="Arial Black, Arial" font-weight="900" font-size="28" fill="#fff" letter-spacing="2">VORHER</text>
+<defs>
+  <linearGradient id="v1-ceil" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#c8c0b4"/><stop offset="100%" stop-color="#b8b0a4"/>
+  </linearGradient>
+  <linearGradient id="v1-back" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#b0a898"/><stop offset="100%" stop-color="#9e9688"/>
+  </linearGradient>
+  <linearGradient id="v1-floor" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#7a6a58"/><stop offset="100%" stop-color="#5a4c3c"/>
+  </linearGradient>
+  <radialGradient id="v1-win" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#3a4858" stop-opacity="0.8"/><stop offset="100%" stop-color="#1a2030"/>
+  </radialGradient>
+  <radialGradient id="v1-vig" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="transparent"/><stop offset="100%" stop-color="#000" stop-opacity="0.62"/>
+  </radialGradient>
+</defs>
+
+<!-- room bg -->
+<rect width="900" height="500" fill="#28201a"/>
+<!-- ceiling -->
+<polygon points="0,0 900,0 720,85 180,85" fill="url(#v1-ceil)"/>
+<!-- back wall -->
+<polygon points="180,85 720,85 720,285 180,285" fill="url(#v1-back)"/>
+<!-- left wall -->
+<polygon points="0,0 180,85 180,285 0,500" fill="#908880"/>
+<!-- right wall -->
+<polygon points="900,0 720,85 720,285 900,500" fill="#888078"/>
+<!-- floor -->
+<polygon points="0,500 900,500 720,285 180,285" fill="url(#v1-floor)"/>
+<!-- floor planks to vanishing point -->
+<line x1="450" y1="285" x2="0" y2="500" stroke="#6a5a48" stroke-width="1.2" opacity="0.5"/>
+<line x1="450" y1="285" x2="180" y2="500" stroke="#6a5a48" stroke-width="1" opacity="0.4"/>
+<line x1="450" y1="285" x2="360" y2="500" stroke="#6a5a48" stroke-width="1" opacity="0.35"/>
+<line x1="450" y1="285" x2="540" y2="500" stroke="#6a5a48" stroke-width="1" opacity="0.35"/>
+<line x1="450" y1="285" x2="720" y2="500" stroke="#6a5a48" stroke-width="1" opacity="0.4"/>
+<line x1="450" y1="285" x2="900" y2="500" stroke="#6a5a48" stroke-width="1.2" opacity="0.5"/>
+<!-- cross planks -->
+<line x1="200" y1="348" x2="700" y2="348" stroke="#6a5a48" stroke-width="1" opacity="0.25" transform="skewX(-8)"/>
+<line x1="185" y1="415" x2="715" y2="415" stroke="#6a5a48" stroke-width="1" opacity="0.2" transform="skewX(-4)"/>
+
+<!-- dirty window -->
+<rect x="340" y="108" width="220" height="148" fill="url(#v1-win)"/>
+<rect x="340" y="108" width="220" height="148" fill="none" stroke="#888078" stroke-width="7"/>
+<line x1="450" y1="108" x2="450" y2="256" stroke="#888078" stroke-width="5"/>
+<line x1="340" y1="182" x2="560" y2="182" stroke="#888078" stroke-width="5"/>
+<!-- faint window glow on wall -->
+<ellipse cx="450" cy="182" rx="80" ry="55" fill="#405060" opacity="0.08"/>
+
+<!-- SOFA left of center -->
+<rect x="195" y="228" width="195" height="58" rx="4" fill="#5c4e40"/>
+<rect x="195" y="200" width="195" height="32" rx="3" fill="#6c5e50"/>
+<rect x="200" y="230" width="89" height="54" rx="2" fill="#645648"/>
+<rect x="296" y="230" width="89" height="54" rx="2" fill="#5c4e42"/>
+<rect x="190" y="204" width="18" height="60" rx="3" fill="#4c3e32"/>
+<rect x="385" y="204" width="18" height="60" rx="3" fill="#4c3e32"/>
+<rect x="190" y="282" width="215" height="6" fill="#18100a" opacity="0.5"/>
+
+<!-- Cardboard boxes stack (center-right) -->
+<!-- box bottom -->
+<rect x="488" y="230" width="128" height="56" fill="#b89040"/>
+<polygon points="488,230 616,230 632,216 504,216" fill="#c8a050"/>
+<polygon points="616,230 632,216 632,272 616,286" fill="#a07830"/>
+<line x1="552" y1="230" x2="552" y2="286" stroke="#987028" stroke-width="2.5" opacity="0.7"/>
+<line x1="488" y1="258" x2="616" y2="258" stroke="#987028" stroke-width="2" opacity="0.6"/>
+<!-- box mid -->
+<rect x="498" y="178" width="118" height="56" fill="#bca048"/>
+<polygon points="498,178 616,178 630,164 514,164" fill="#ceb058"/>
+<polygon points="616,178 630,164 630,220 616,234" fill="#a88038"/>
+<line x1="557" y1="178" x2="557" y2="234" stroke="#987028" stroke-width="2" opacity="0.6"/>
+<line x1="498" y1="206" x2="616" y2="206" stroke="#987028" stroke-width="2" opacity="0.5"/>
+<!-- box top -->
+<rect x="508" y="130" width="108" height="52" fill="#c4a848"/>
+<polygon points="508,130 616,130 628,118 520,118" fill="#d4b858"/>
+<polygon points="616,130 628,118 628,168 616,182" fill="#b09040"/>
+
+<!-- boxes left side wall -->
+<rect x="28" y="290" width="105" height="62" fill="#b08840" opacity="0.88"/>
+<polygon points="28,290 133,290 146,276 41,276" fill="#c09850" opacity="0.88"/>
+<rect x="35" y="238" width="95" height="56" fill="#b89848" opacity="0.85"/>
+<polygon points="35,238 130,238 142,225 47,225" fill="#c8a858" opacity="0.85"/>
+<rect x="42" y="193" width="85" height="48" fill="#c0a050" opacity="0.82"/>
+<polygon points="42,193 127,193 138,181 53,181" fill="#d0b060" opacity="0.82"/>
+
+<!-- rubbish bags on floor -->
+<ellipse cx="330" cy="318" rx="60" ry="28" fill="#2a2820"/>
+<ellipse cx="325" cy="308" rx="55" ry="24" fill="#323028"/>
+<ellipse cx="385" cy="325" rx="48" ry="22" fill="#2e2c26"/>
+<circle cx="325" cy="286" r="9" fill="#1a1816"/>
+
+<!-- old floor lamp (leaning) -->
+<line x1="680" y1="155" x2="690" y2="283" stroke="#504840" stroke-width="7"/>
+<ellipse cx="685" cy="284" rx="22" ry="7" fill="#3a3028"/>
+<polygon points="646,155 718,155 710,102 654,102" fill="#7a6848" opacity="0.92"/>
+
+<!-- rolled up carpet -->
+<ellipse cx="148" cy="388" rx="76" ry="22" fill="#7a6848"/>
+<ellipse cx="148" cy="385" rx="70" ry="17" fill="#8a7858"/>
+<ellipse cx="148" cy="382" rx="62" ry="12" fill="#6a5840"/>
+
+<!-- leaning picture frames right -->
+<rect x="740" y="198" width="68" height="58" rx="2" fill="#4e3e28" transform="rotate(-9 740 256)"/>
+<rect x="746" y="204" width="56" height="46" rx="1" fill="#2e2018" transform="rotate(-9 740 256)"/>
+<rect x="760" y="210" width="62" height="52" rx="2" fill="#544430" transform="rotate(6 760 262)"/>
+<rect x="766" y="216" width="50" height="40" rx="1" fill="#2a2218" transform="rotate(6 760 262)"/>
+
+<!-- misc floor items -->
+<rect x="420" y="330" width="44" height="26" rx="3" fill="#5a4838"/>
+<rect x="540" y="348" width="36" height="18" rx="2" fill="#4e4030"/>
+<rect x="640" y="360" width="55" height="15" rx="2" fill="#3e3028"/>
+<circle cx="595" cy="365" r="14" fill="#423828"/>
+
+<!-- grime tint -->
+<rect width="900" height="500" fill="#2a1808" opacity="0.14"/>
+<!-- vignette -->
+<rect width="900" height="500" fill="url(#v1-vig)"/>
+<!-- label bar -->
+<rect x="0" y="448" width="900" height="52" fill="#000" opacity="0.68"/>
+<text x="22" y="483" font-family="Arial Black,Arial" font-weight="900" font-size="21" fill="#fff" letter-spacing="1">Vor der Entrümpelung</text>
 </svg>

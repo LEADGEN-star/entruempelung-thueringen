@@ -1,4 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
-<rect width="900" height="500" fill="#2e2a26"/><rect x="0" y="0" width="900" height="275" fill="#3d3830"/><polygon points="0,275 900,275 900,500 0,500" fill="#4a3820"/><line x1="0" y1="320" x2="900" y2="320" stroke="#3e2f1b" stroke-width="1" opacity="0.4"/><line x1="0" y1="365" x2="900" y2="365" stroke="#3e2f1b" stroke-width="1" opacity="0.4"/><line x1="0" y1="410" x2="900" y2="410" stroke="#3e2f1b" stroke-width="1" opacity="0.4"/><line x1="0" y1="455" x2="900" y2="455" stroke="#3e2f1b" stroke-width="1" opacity="0.4"/><ellipse cx="450" cy="30" rx="120" ry="20" fill="#ffffff" opacity="0.05"/><rect x="80" y="310" width="250" height="100" rx="8" fill="#5A4A38"/><rect x="80" y="280" width="250" height="40" rx="4" fill="#6A5A45"/><rect x="80" y="280" width="40" height="130" rx="4" fill="#6A5A45"/><rect x="290" y="280" width="40" height="130" rx="4" fill="#6A5A45"/><rect x="580" y="180" width="150" height="320" fill="#4A3828"/><line x1="655" y1="180" x2="655" y2="500" stroke="#33271c" stroke-width="2"/><circle cx="647" cy="340" r="5" fill="#888"/><circle cx="663" cy="340" r="5" fill="#888"/><rect x="400" y="350" width="80" height="70" fill="#C4A882"/><rect x="400" y="350" width="80" height="70" fill="none" stroke="#89755b" stroke-width="1"/><rect x="420" y="290" width="70" height="60" fill="#B8956A"/><rect x="420" y="290" width="70" height="60" fill="none" stroke="#80684a" stroke-width="1"/><rect x="480" y="360" width="90" height="60" fill="#D4B890"/><rect x="480" y="360" width="90" height="60" fill="none" stroke="#948064" stroke-width="1"/><rect x="200" y="370" width="70" height="60" fill="#A08060"/><rect x="200" y="370" width="70" height="60" fill="none" stroke="#705943" stroke-width="1"/><rect x="150" y="260" width="180" height="10" fill="#6B5030"/><rect x="160" y="270" width="10" height="60" fill="#5A4028"/><rect x="310" y="270" width="10" height="60" fill="#5A4028"/><rect x="700" y="380" width="120" height="80" rx="4" fill="#8B7355" opacity="0.8"/><rect x="750" y="340" width="60" height="40" fill="#C4A882" opacity="0.8"/><rect width="900" height="500" fill="#000" opacity="0.15"/><radialGradient id="vig2b" cx="50%" cy="50%" r="70%"><stop offset="0%" stop-color="transparent"/><stop offset="100%" stop-color="#000" stop-opacity="0.5"/></radialGradient><rect width="900" height="500" fill="url(#vig2b)"/><rect x="0" y="446" width="900" height="54" fill="#000" opacity="0.6"/>
-    <text x="24" y="482" font-family="Arial Black, Arial" font-weight="900" font-size="28" fill="#fff" letter-spacing="2">VORHER</text>
+<defs>
+  <linearGradient id="v2-ceil" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#c0b8ac"/><stop offset="100%" stop-color="#b0a89c"/>
+  </linearGradient>
+  <linearGradient id="v2-back" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#a89890"/><stop offset="100%" stop-color="#988880"/>
+  </linearGradient>
+  <linearGradient id="v2-floor" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#706050"/><stop offset="100%" stop-color="#504038"/>
+  </linearGradient>
+  <radialGradient id="v2-vig" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="transparent"/><stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+  </radialGradient>
+</defs>
+<rect width="900" height="500" fill="#241c16"/>
+<polygon points="0,0 900,0 720,85 180,85" fill="url(#v2-ceil)"/>
+<polygon points="180,85 720,85 720,285 180,285" fill="url(#v2-back)"/>
+<polygon points="0,0 180,85 180,285 0,500" fill="#888078"/>
+<polygon points="900,0 720,85 720,285 900,500" fill="#807870"/>
+<polygon points="0,500 900,500 720,285 180,285" fill="url(#v2-floor)"/>
+<line x1="450" y1="285" x2="0" y2="500" stroke="#625040" stroke-width="1.2" opacity="0.45"/>
+<line x1="450" y1="285" x2="200" y2="500" stroke="#625040" stroke-width="1" opacity="0.38"/>
+<line x1="450" y1="285" x2="450" y2="500" stroke="#625040" stroke-width="1" opacity="0.3"/>
+<line x1="450" y1="285" x2="700" y2="500" stroke="#625040" stroke-width="1" opacity="0.38"/>
+<line x1="450" y1="285" x2="900" y2="500" stroke="#625040" stroke-width="1.2" opacity="0.45"/>
+<!-- grimy window with half-drawn curtain -->
+<rect x="345" y="108" width="210" height="148" fill="#181c22"/>
+<rect x="345" y="108" width="210" height="148" fill="none" stroke="#807870" stroke-width="7"/>
+<line x1="450" y1="108" x2="450" y2="256" stroke="#807870" stroke-width="5"/>
+<line x1="345" y1="182" x2="555" y2="182" stroke="#807870" stroke-width="5"/>
+<polygon points="345,108 395,108 375,256 345,256" fill="#5a5040" opacity="0.9"/>
+<polygon points="555,108 555,256 525,256 548,108" fill="#5a5040" opacity="0.85"/>
+<!-- Wardrobe right -->
+<rect x="600" y="115" width="118" height="170" fill="#4a3c2c"/>
+<line x1="659" y1="115" x2="659" y2="285" stroke="#3a2c1c" stroke-width="2"/>
+<rect x="650" y="196" width="9" height="14" rx="2" fill="#8a7040"/>
+<rect x="661" y="196" width="9" height="14" rx="2" fill="#8a7040"/>
+<rect x="604" y="228" width="55" height="18" fill="#5a4c3c"/>
+<rect x="610" y="218" width="42" height="12" fill="#382c1c" opacity="0.5"/>
+<rect x="610" y="228" width="35" height="28" fill="#b0a890" opacity="0.8" transform="rotate(8 610 228)"/>
+<rect x="625" y="225" width="30" height="32" fill="#d4c0a0" opacity="0.7" transform="rotate(-5 625 225)"/>
+<!-- Armchair center-left -->
+<rect x="220" y="235" width="148" height="52" rx="5" fill="#504030"/>
+<rect x="220" y="208" width="148" height="30" rx="4" fill="#604838"/>
+<rect x="216" y="212" width="16" height="62" rx="3" fill="#3e3020"/>
+<rect x="356" y="212" width="16" height="62" rx="3" fill="#3e3020"/>
+<rect x="220" y="283" width="148" height="5" fill="#18100a" opacity="0.55"/>
+<!-- box stack center -->
+<rect x="458" y="238" width="116" height="48" fill="#b08838"/>
+<polygon points="458,238 574,238 588,224 472,224" fill="#c09848"/>
+<polygon points="574,238 588,224 588,286 574,286" fill="#987028"/>
+<line x1="516" y1="238" x2="516" y2="286" stroke="#907020" stroke-width="2" opacity="0.6"/>
+<rect x="465" y="193" width="106" height="48" fill="#b89040"/>
+<polygon points="465,193 571,193 584,179 478,179" fill="#c8a050"/>
+<polygon points="571,193 584,179 584,241 571,241" fill="#a07830"/>
+<rect x="472" y="148" width="96" height="48" fill="#c09848"/>
+<polygon points="472,148 568,148 580,135 484,135" fill="#d0a858"/>
+<!-- Framed photos on floor (Nachlassauflösung) -->
+<rect x="68" y="295" width="78" height="60" rx="2" fill="#3e2e18" transform="rotate(-15 68 325)"/>
+<rect x="74" y="301" width="66" height="48" rx="1" fill="#c8b888" transform="rotate(-15 68 325)"/>
+<rect x="105" y="303" width="68" height="52" rx="2" fill="#352510" transform="rotate(10 105 329)"/>
+<rect x="111" y="309" width="56" height="40" rx="1" fill="#a8a888" transform="rotate(10 105 329)"/>
+<!-- black bags -->
+<ellipse cx="360" cy="322" rx="52" ry="24" fill="#282620"/>
+<ellipse cx="355" cy="313" rx="48" ry="21" fill="#302e28"/>
+<circle cx="355" cy="293" r="8" fill="#181616"/>
+<!-- misc floor items -->
+<rect x="600" y="350" width="62" height="18" rx="2" fill="#4a3828"/>
+<rect x="180" y="390" width="80" height="14" rx="2" fill="#3a3020"/>
+<circle cx="280" cy="370" r="16" fill="#3a3020"/>
+<!-- grime -->
+<rect width="900" height="500" fill="#200c04" opacity="0.16"/>
+<rect width="900" height="500" fill="url(#v2-vig)"/>
+<rect x="0" y="448" width="900" height="52" fill="#000" opacity="0.68"/>
+<text x="22" y="483" font-family="Arial Black,Arial" font-weight="900" font-size="21" fill="#fff" letter-spacing="1">Vor der Entrümpelung</text>
 </svg>
