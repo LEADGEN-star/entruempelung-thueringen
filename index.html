@@ -72,8 +72,8 @@
       --dark2: #1e293b;
       --dark3: #334155;
       --white: #ffffff;
-      --off: #f8fafc;
-      --border: #e2e8f0;
+      --off: #faf8f6;
+      --border: #e8e2dc;
       --text: #1e293b;
       --muted: #64748b;
       --green: #16a34a;
@@ -139,12 +139,15 @@
 
     /* ─── HERO ─── */
     .hero {
-      background: #fff;
+      background-color: #faf8f6;
       background-image:
-        radial-gradient(ellipse 70% 60% at 100% 0%, rgba(232,93,4,0.07) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 50% at 0% 100%, rgba(232,93,4,0.04) 0%, transparent 50%);
-      padding: 4rem 1.5rem 4.5rem;
+        radial-gradient(ellipse 80% 50% at 100% 0%, rgba(232,93,4,0.10) 0%, transparent 55%),
+        radial-gradient(circle at 15% 85%, rgba(232,93,4,0.05) 0%, transparent 40%),
+        url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='1.2' fill='%23e85d04' fill-opacity='0.08'/%3E%3C/svg%3E");
+      background-size: auto, auto, 40px 40px;
+      padding: 3.5rem 1.5rem 4rem;
       border-bottom: 1px solid var(--border);
+      border-top: 3px solid var(--orange);
     }
     .hero-grid {
       max-width: 1100px;
@@ -162,11 +165,11 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: rgba(232,93,4,0.08);
-      border: 1px solid rgba(232,93,4,0.25);
+      background: rgba(232,93,4,0.10);
+      border: 1px solid rgba(232,93,4,0.30);
       color: var(--orange);
-      font-size: 0.8rem;
-      font-weight: 600;
+      font-size: 0.85rem;
+      font-weight: 700;
       padding: 0.35rem 0.85rem;
       border-radius: 999px;
       margin-bottom: 1.5rem;
@@ -354,17 +357,32 @@ appearance: none;    }
 
     /* ─── SECTIONS ─── */
     .section { padding: 5rem 1.5rem; }
-    .section.alt { background: var(--off); }
+    .section.alt {
+      background-color: var(--off);
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0' y1='60' x2='60' y2='0' stroke='%23e85d04' stroke-opacity='0.04' stroke-width='1'/%3E%3C/svg%3E");
+      background-size: 60px 60px;
+    }
     .container { max-width: 1100px; margin: 0 auto; }
 
+    .section { position: relative; }
     .section-tag {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       font-size: 0.75rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       color: var(--orange);
       margin-bottom: 0.6rem;
+    }
+    .section-tag::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--orange);
+      border-radius: 2px;
     }
     h2.section-h {
       font-size: clamp(1.8rem, 4vw, 2.6rem);
@@ -775,8 +793,9 @@ appearance: none;    }
       bottom: 0;
       left: 0;
       right: 0;
-      background: var(--dark);
-      border-top: 1px solid rgba(255,255,255,0.1);
+      background: #fff;
+      border-top: 1px solid var(--border);
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
       padding: 0.75rem 1rem;
       z-index: 150;
       gap: 0.6rem;
@@ -790,7 +809,7 @@ appearance: none;    }
       font-size: 0.9rem;
       text-decoration: none;
     }
-    .sticky-mobile .s-tel { background: rgba(255,255,255,0.1); color: #fff; }
+    .sticky-mobile .s-tel { background: var(--off); color: var(--dark); border: 1px solid var(--border); }
     .sticky-mobile .s-cta { background: var(--orange); color: #fff; }
     @media (max-width: 768px) { .sticky-mobile { display: flex; } body { padding-bottom: 72px; } }
   </style>
@@ -811,10 +830,11 @@ appearance: none;    }
   <div class="hero-grid">
     <!-- LEFT: Headline + Trust -->
     <div>
-      <div class="hero-eyebrow">Entrümpelung Thüringen · Festpreis & Termin in 48h</div>
+      <div class="hero-eyebrow">★★★★★ 5,0 auf Google</div>
       <h1>Entrümpelung in<br><em>Thüringen</em> –<br>schnell, fair & stressfrei.</h1>
       <p class="hero-sub">
-        Wir organisieren Ihnen sofort eine professionelle Entrümpelung in Ihrer Region – mit kostenloser Besichtigung und verbindlichem Festpreis. Kein Risiko, kein Stress.
+        Keller ab 250 € · Wohnung ab 700 € · Haus ab 1.800 €<br>
+        Kostenlose Besichtigung vor Ort – verbindlicher Festpreis, keine Nachzahlungen.
       </p>
       <div class="hero-trust">
         <div class="hero-trust-item"><span class="check">✓</span> Kostenlose Besichtigung vor Ort</div>
@@ -1291,7 +1311,7 @@ appearance: none;    }
 
 <!-- MOBILE STICKY CTA -->
 <div class="sticky-mobile">
-  <a href="tel:+4915730064205" class="s-tel">📞 Anrufen</a>
+  <a href="tel:+4915730064205" class="s-tel">Anrufen</a>
   <a href="#anfrage" class="s-cta">Kostenlos anfragen →</a>
 </div>
 
@@ -1311,7 +1331,7 @@ appearance: none;    }
 
 <script>
 (function() {
-  const WEBHOOK = 'https://ruempler.app.n8n.cloud/webhook/6e7f9935-73a9-4794-ac30-e62df2b085a5';
+  const ACCESS_KEY = 'c3737ff3-c4ec-4c76-b89a-51eb8528af97';
 
   function handleSubmit(form) {
     form.addEventListener('submit', async function(e) {
@@ -1322,17 +1342,25 @@ appearance: none;    }
 
       const data = {};
       new FormData(form).forEach((v, k) => data[k] = v);
+      data.access_key = ACCESS_KEY;
+      data.subject = 'Neue Anfrage – Entrümpelung Thüringen';
       data.seite = window.location.href;
       data.datum = new Date().toLocaleString('de-DE', {timeZone: 'Europe/Berlin'});
 
       try {
-        await fetch(WEBHOOK, {
+        const res = await fetch('https://api.web3forms.com/submit', {
           method: 'POST',
-          headers: {'Content-Type': 'text/plain'},
-          mode: 'no-cors',
+          headers: {'Content-Type': 'application/json'},
           body: JSON.stringify(data)
         });
-      } catch(err) {}
+        const json = await res.json();
+        if (!json.success) throw new Error(json.message);
+      } catch(err) {
+        btn.disabled = false;
+        btn.textContent = 'Jetzt kostenlos anfragen →';
+        alert('Fehler beim Senden. Bitte rufen Sie uns direkt an: 01573 0064205');
+        return;
+      }
 
       window.location.href = '/danke.html';
     });
