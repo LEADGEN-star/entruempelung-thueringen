@@ -434,7 +434,7 @@
 </footer>
 <script>
 (function() {
-  var WEBHOOK = "https://ruempler.app.n8n.cloud/webhook/6e7f9935-73a9-4794-ac30-e62df2b085a5";
+  var ACCESS_KEY = "c3737ff3-c4ec-4c76-b89a-51eb8528af97";
   var form = document.querySelector("form.form");
   if (!form) return;
   form.addEventListener("submit", function(e) {
@@ -444,15 +444,21 @@
     btn.textContent = "Wird gesendet…";
     var data = {};
     new FormData(form).forEach(function(v, k) { data[k] = v; });
+    data.access_key = ACCESS_KEY;
+    data.subject = "Neue Anfrage – Entrümpelung Thüringen";
     data.seite = window.location.href;
     data.datum = new Date().toLocaleString("de-DE", {timeZone: "Europe/Berlin"});
-    fetch(WEBHOOK, {
+    fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      headers: {"Content-Type": "text/plain"},
-      mode: "no-cors",
+      headers: {"Content-Type": "application/json"},
       body: JSON.stringify(data)
-    }).catch(function(){}).finally(function(){
+    }).then(function(r) { return r.json(); }).then(function(j) {
+      if (!j.success) throw new Error(j.message);
       window.location.href = "/danke.html";
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = "Kostenlos & unverbindlich anfragen →";
+      alert("Fehler beim Senden. Bitte rufen Sie uns direkt an: 01573 0064205");
     });
   });
 })();
