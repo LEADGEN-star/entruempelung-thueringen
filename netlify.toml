@@ -1,6 +1,25 @@
 [build]
   publish = "."
 
+# Force HTTP → HTTPS redirect
+[[redirects]]
+  from = "http://entruempelung-thueringen.com/*"
+  to = "https://entruempelung-thueringen.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.entruempelung-thueringen.com/*"
+  to = "https://entruempelung-thueringen.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.entruempelung-thueringen.com/*"
+  to = "https://entruempelung-thueringen.com/:splat"
+  status = 301
+  force = true
+
 [build.processing]
   skip_processing = false
 
