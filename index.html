@@ -72,8 +72,8 @@
       --dark2: #1e293b;
       --dark3: #334155;
       --white: #ffffff;
-      --off: #f8fafc;
-      --border: #e2e8f0;
+      --off: #faf8f6;
+      --border: #e8e2dc;
       --text: #1e293b;
       --muted: #64748b;
       --green: #16a34a;
@@ -139,9 +139,12 @@
 
     /* ─── HERO ─── */
     .hero {
-      background: #f8f9fa;
+      background-color: #faf8f6;
       background-image:
-        radial-gradient(ellipse 80% 50% at 100% 0%, rgba(232,93,4,0.09) 0%, transparent 55%);
+        radial-gradient(ellipse 80% 50% at 100% 0%, rgba(232,93,4,0.10) 0%, transparent 55%),
+        radial-gradient(circle at 15% 85%, rgba(232,93,4,0.05) 0%, transparent 40%),
+        url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='1.2' fill='%23e85d04' fill-opacity='0.08'/%3E%3C/svg%3E");
+      background-size: auto, auto, 40px 40px;
       padding: 3.5rem 1.5rem 4rem;
       border-bottom: 1px solid var(--border);
       border-top: 3px solid var(--orange);
@@ -354,17 +357,32 @@ appearance: none;    }
 
     /* ─── SECTIONS ─── */
     .section { padding: 5rem 1.5rem; }
-    .section.alt { background: var(--off); }
+    .section.alt {
+      background-color: var(--off);
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0' y1='60' x2='60' y2='0' stroke='%23e85d04' stroke-opacity='0.04' stroke-width='1'/%3E%3C/svg%3E");
+      background-size: 60px 60px;
+    }
     .container { max-width: 1100px; margin: 0 auto; }
 
+    .section { position: relative; }
     .section-tag {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       font-size: 0.75rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       color: var(--orange);
       margin-bottom: 0.6rem;
+    }
+    .section-tag::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--orange);
+      border-radius: 2px;
     }
     h2.section-h {
       font-size: clamp(1.8rem, 4vw, 2.6rem);
