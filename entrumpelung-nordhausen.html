@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code (deferred) -->
   <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '27297560109862860');
-  fbq('track', 'PageView');
+  (function() {
+    function loadPixel() {
+      if (loadPixel.done) return; loadPixel.done = true;
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '27297560109862860');
+      fbq('track', 'PageView');
+    }
+    ['scroll','click','mousemove','touchstart'].forEach(function(ev) {
+      window.addEventListener(ev, loadPixel, {once: true, passive: true});
+    });
+    setTimeout(loadPixel, 5000);
+  })();
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=27297560109862860&ev=PageView&noscript=1"
-  /></noscript>
   <!-- End Meta Pixel Code -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,10 +38,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18142775376"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-18142775376');</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://entruempelung-thueringen.com/entrumpelung-nordhausen#business","name":"Entrümpelung Nordhausen","url":"https://entruempelung-thueringen.com/entrumpelung-nordhausen","telephone":"+4915730064205","address":{"@type":"PostalAddress","streetAddress":"Albert-Pulvers-Straße 12","addressLocality":"Ilmenau","postalCode":"98693","addressCountry":"DE"},"areaServed":"Nordhausen","description":"Entrümpelung in Nordhausen gesucht? Haushaltsauflösung, Kellerentrümpelung & Wohnungsräumung – schnell & zum Festpreis. Jetzt kostenlos anfragen – Festpreis garantiert."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite","item":"https://entruempelung-thueringen.com/"},{"@type":"ListItem","position":2,"name":"Entrümpelung Nordhausen","item":"https://entruempelung-thueringen.com/entrumpelung-nordhausen"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was kostet eine Entrümpelung in Nordhausen?","acceptedAnswer":{"@type":"Answer","text":"Kellerentrümpelungen in Nordhausen kosten ab ca. 150 €. Wohnungsräumungen liegen je nach Größe zwischen 300 und 750 €, Hausräumungen ab ca. 700 €. Exakte Preise nach Kostenlose Besichtigung vor Ort."}},{"@type":"Question","name":"Deckt ihr auch den Landkreis Nordhausen ab?","acceptedAnswer":{"@type":"Answer","text":"Ja, wir sind auch in der Harzregion rund um Nordhausen tätig – z. B. in Bleicherode, Ellrich oder Heringen. Anfragen Sie einfach."}},{"@type":"Question","name":"Wie läuft die Beauftragung genau ab?","acceptedAnswer":{"@type":"Answer","text":"Sie senden uns eine Anfrage (Formular oder WhatsApp), wir kontaktieren passende Fachbetriebe in Nordhausen, ein Betrieb kommt zur kostenlosen Besichtigung und gibt Ihnen ein verbindliches Angebot. Kein Auftrag – kein Risiko."}},{"@type":"Question","name":"Kann ich mehrere Räumlichkeiten gleichzeitig beauftragen?","acceptedAnswer":{"@type":"Answer","text":"Ja, auch kombinierte Aufträge – z. B. Wohnung plus Keller – sind möglich und oft günstiger als zwei separate Beauftragungen."}}]}]}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"></noscript>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -45,7 +47,7 @@
       --text: #1e293b; --muted: #64748b; --green: #16a34a;
     }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', system-ui, sans-serif; color: var(--text); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    body { font-family: system-ui, -apple-system, sans-serif; color: var(--text); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
 
     nav { background: #fff; padding: 0 1.5rem; height: 60px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 200; border-bottom: 1px solid var(--border); box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
     .logo img { height: 38px; width: auto; }
@@ -97,7 +99,7 @@
     @media (max-width: 600px) { .proof-div { display: none; } .proof-inner { gap: 0.9rem; } }
 
     .visual-section { background: var(--dark); position: relative; overflow: hidden; }
-    .visual-bg { position: absolute; inset: 0; background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1400&q=60'); background-size: cover; background-position: center; opacity: 0.18; }
+    .visual-bg { position: absolute; inset: 0; background-image: none; background-size: cover; background-position: center; opacity: 0.18; }
     .visual-inner { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 4rem 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
     @media (max-width: 750px) { .visual-inner { grid-template-columns: 1fr; gap: 2rem; } }
     .visual-text h2 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); font-weight: 900; color: #fff; letter-spacing: -0.02em; margin-bottom: 0.8rem; }
@@ -543,7 +545,7 @@
     var data = {};
     new FormData(form).forEach(function(v, k) { data[k] = v; });
     data.access_key = ACCESS_KEY;
-    data.subject = "Neue Anfrage – Entrümpelung Thüringen";
+    data.subject = "Neue Anfrage – Entrümpelung Nordhausen";
     data.seite = window.location.href;
     data.datum = new Date().toLocaleString("de-DE", {timeZone: "Europe/Berlin"});
     fetch("https://api.web3forms.com/submit", {
