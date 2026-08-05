@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code (deferred) -->
   <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '27297560109862860');
-  fbq('track', 'PageView');
+  (function() {
+    function loadPixel() {
+      if (loadPixel.done) return; loadPixel.done = true;
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '27297560109862860');
+      fbq('track', 'PageView');
+    }
+    ['scroll','click','mousemove','touchstart'].forEach(function(ev) {
+      window.addEventListener(ev, loadPixel, {once: true, passive: true});
+    });
+    setTimeout(loadPixel, 5000);
+  })();
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=27297560109862860&ev=PageView&noscript=1"
-  /></noscript>
   <!-- End Meta Pixel Code -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,10 +43,6 @@
     {"@type":"ListItem","position":2,"name":"Ratgeber","item":"https://entruempelung-thueringen.com/ratgeber"}
   ]}
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap"></noscript>
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{--dark:#111827;--orange:#ea580c;--orange-light:#f97316;--white:#ffffff;--gray:#f9fafb;--text:#1e293b;--muted:#6b7280}
