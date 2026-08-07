@@ -143,7 +143,7 @@ def main():
             continue
 
         html = build_page(city, template, domain)
-        filename = f"entrumpelung-{city['slug']}.html"
+        filename = f"entruempelung-{city['slug']}.html"
         filepath = os.path.join(outdir, filename)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html)
