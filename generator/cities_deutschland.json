@@ -1,0 +1,1116 @@
+{
+  "meta": {
+    "domain": "https://entruempelung-deutschland.com",
+    "phone": "+4915730064205",
+    "whatsapp": "4915730064205",
+    "note": "Städte die bereits auf der Site sind werden hier nicht aufgeführt: Berlin, München, Hamburg, Frankfurt, Köln, Stuttgart, Düsseldorf, Hannover, Nürnberg, Leipzig, Dresden, Bonn, Duisburg, Augsburg, Koblenz, Wuppertal, Bielefeld, Bochum, Dortmund, Essen, Gelsenkirchen, Mannheim, Kaiserslautern, Offenbach, Münster, Karlsruhe + alle Thüringen-Städte"
+  },
+  "cities": [
+    {
+      "stadt": "Halle (Saale)",
+      "slug": "halle-saale",
+      "tier": 2,
+      "region": "Sachsen-Anhalt · Stadt Halle (kreisfrei)",
+      "hook": "Händelstadt & Uni-Stadt",
+      "stadtteile": ["Neustadt","Silberhöhe","Südstadt","Innenstadt","Paulusviertel","Ammendorf","Büschdorf","Trotha"],
+      "preis_keller": "120",
+      "preis_wohnung": "280",
+      "tier2_absatz": "Halle hat mit Neustadt eines der größten Plattenbau-Wohngebiete Deutschlands – die Keller der WBS-70-Bauten sind nach Jahrzehnten oft randvoll. Daneben gibt es historische Gründerzeithäuser im Paulusviertel mit klassischen Erbschaftsfällen."
+    },
+    {
+      "stadt": "Magdeburg",
+      "slug": "magdeburg",
+      "tier": 2,
+      "region": "Sachsen-Anhalt · Landeshauptstadt (kreisfrei)",
+      "hook": "Dom-Stadt & Elbmetropole",
+      "stadtteile": ["Neu Olvenstedt","Stadtfeld Ost","Buckau","Sudenburg","Cracau","Reform","Kannenstieg","Altstadt"],
+      "preis_keller": "120",
+      "preis_wohnung": "280",
+      "tier2_absatz": "Magdeburg hat mit Neu Olvenstedt eine der größten Plattenbausiedlungen Sachsen-Anhalts. Wohnungsauflösungen nach Todesfall oder Heimeinzug sind hier ein häufiger Auftragstyp – oft in engen Kellerabteilen mit jahrzehntelangem Inhalt."
+    },
+    {
+      "stadt": "Dessau-Roßlau",
+      "slug": "dessau",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · kreisfrei",
+      "stadtteile": ["Innenstadt","Ziebigk","Alten","Roßlau","Mildensee","Törten","Mosigkau","Waldersee"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Lutherstadt Wittenberg",
+      "slug": "wittenberg",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Landkreis Wittenberg",
+      "stadtteile": ["Altstadt","Piesteritz","Apollensdorf","Pratau","Reinsdorf","Coswig","Zahna","Straach"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Merseburg",
+      "slug": "merseburg",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Saalekreis",
+      "stadtteile": ["Innenstadt","Geusa","Meuschau","Beuna","Trebnitz","Neumarkt","Süd","Ost"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Halberstadt",
+      "slug": "halberstadt",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Landkreis Harz",
+      "stadtteile": ["Innenstadt","Harsleben","Sargstedt","Athenstedt","Emersleben","Ströbeck","Deesdorf","Pabstorf"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Stendal",
+      "slug": "stendal",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Landkreis Stendal",
+      "stadtteile": ["Innenstadt","Stadtsee","Röxe","Uenglingen","Staffelde","Borstel","Möringen","Schartau"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Quedlinburg",
+      "slug": "quedlinburg",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Landkreis Harz",
+      "stadtteile": ["Innenstadt","Weststadt","Münzenberg","Gernrode","Bad Suderode","Quarmbeck","Ditfurt","Westerhausen"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Wernigerode",
+      "slug": "wernigerode",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Landkreis Harz",
+      "stadtteile": ["Innenstadt","Hasserode","Nöschenrode","Benzingerode","Schierke","Reddeber","Minsleben","Silstedt"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Weißenfels",
+      "slug": "weissenfels",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Burgenlandkreis",
+      "stadtteile": ["Innenstadt","Neustadt","Burgwerben","Leißling","Schkortleben","Uichteritz","Gröst","Langendorf"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Naumburg (Saale)",
+      "slug": "naumburg",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Burgenlandkreis",
+      "stadtteile": ["Innenstadt","Roßbach","Almrich","Grochlitz","Henne","Steinburg","Flemmingen","Bad Kösen"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Bernburg (Saale)",
+      "slug": "bernburg",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Salzlandkreis",
+      "stadtteile": ["Innenstadt","Waldau","Strenzfeld","Dröbel","Baalberge","Aderstedt","Poley","Wohlsdorf"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Sangerhausen",
+      "slug": "sangerhausen",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Mansfeld-Südharz",
+      "stadtteile": ["Innenstadt","Gonna","Riestedt","Oberröblingen","Morungen","Lengefeld","Wallhausen","Martinsrieth"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Köthen (Anhalt)",
+      "slug": "koethen",
+      "tier": 1,
+      "region": "Sachsen-Anhalt · Landkreis Anhalt-Bitterfeld",
+      "stadtteile": ["Innenstadt","Merzien","Quellendorf","Löbnitz","Löberitz","Pfriemke","Wulfen","Hohsdorf"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Chemnitz",
+      "slug": "chemnitz",
+      "tier": 2,
+      "region": "Sachsen · Stadt Chemnitz (kreisfrei)",
+      "hook": "Industriestadt & Karl-Marx-Stadt",
+      "stadtteile": ["Gablenz","Helbersdorf","Markersdorf","Morgenleite","Schlosschemnitz","Einsiedel","Altchemnitz","Lutherviertel"],
+      "preis_keller": "120",
+      "preis_wohnung": "270",
+      "tier2_absatz": "Chemnitz – ehemals Karl-Marx-Stadt – hat großflächige DDR-Plattenbausiedlungen in Gablenz, Helbersdorf und Markersdorf. Kellerentrümpelungen aus WBS-70-Bauten sind häufig, ebenso Wohnungsauflösungen nach Wegzug oder Erbschaft in Gründerzeithäusern."
+    },
+    {
+      "stadt": "Zwickau",
+      "slug": "zwickau",
+      "tier": 2,
+      "region": "Sachsen · Landkreis Zwickau",
+      "hook": "Automobilstadt & Robert-Schumann-Stadt",
+      "stadtteile": ["Innenstadt","Eckersbach","Marienthal","Nordvorstadt","Planitz","Schedewitz","Neuplanitz","Pöhlau"],
+      "preis_keller": "120",
+      "preis_wohnung": "265",
+      "tier2_absatz": "Zwickau als ehemaliger Standort des VW-Werks (vormals Trabant) hat viele Arbeiterwohnviertel aus DDR-Zeiten. Eckersbach und Neuplanitz sind klassische Plattenbaugebiete mit hohem Entrümpelungsbedarf bei Wohnungswechsel oder Erbschaft."
+    },
+    {
+      "stadt": "Plauen",
+      "slug": "plauen",
+      "tier": 1,
+      "region": "Sachsen · Vogtlandkreis",
+      "stadtteile": ["Innenstadt","Reusa","Haselbrunn","Chrieschwitz","Neundorf","Syrau","Großzöbern","Mehltheuer"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Görlitz",
+      "slug": "goerlitz",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Görlitz",
+      "stadtteile": ["Innenstadt","Königshufen","Rauschwalde","Weinhübel","Ludwigsdorf","Hagenwerder","Klingewalde","Biesnitz"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Bautzen",
+      "slug": "bautzen",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Bautzen",
+      "stadtteile": ["Innenstadt","Seidau","Gesundbrunnen","Südvorstadt","Salzenforst","Auritz","Brösa","Großwelka"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Freiberg (Sachsen)",
+      "slug": "freiberg",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Mittelsachsen",
+      "stadtteile": ["Innenstadt","Zug","Halsbach","Kleinwaltersdorf","Langenau","Tuttendorf","Brand-Erbisdorf","Großschirma"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Meißen",
+      "slug": "meissen",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Meißen",
+      "stadtteile": ["Altstadt","Niederebersbach","Zaschendorf","Cölln","Proschwitz","Bohnitzsch","Zadel","Siebeneichen"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Riesa",
+      "slug": "riesa",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Meißen",
+      "stadtteile": ["Innenstadt","Weida","Canitz","Gröba","Merzdorf","Pausitz","Leckwitz","Oelsitz"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Hoyerswerda",
+      "slug": "hoyerswerda",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Bautzen",
+      "stadtteile": ["Neustadt","Innenstadt","Zeißig","Kühnicht","Schwarzkollm","Dörgenhausen","Bröthen","Knappenrode"],
+      "preis_keller": "120",
+      "preis_wohnung": "245"
+    },
+    {
+      "stadt": "Pirna",
+      "slug": "pirna",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Sächsische Schweiz-Osterzgebirge",
+      "stadtteile": ["Innenstadt","Copitz","Sonnenstein","Jessen","Niedervogelgesang","Rottwerndorf","Dohma","Graupa"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Zittau",
+      "slug": "zittau",
+      "tier": 1,
+      "region": "Sachsen · Landkreis Görlitz",
+      "stadtteile": ["Innenstadt","Pethau","Dittelsdorf","Hirschfelde","Olbersdorf","Großporitsch","Eichgraben","Türchau"],
+      "preis_keller": "120",
+      "preis_wohnung": "245"
+    },
+    {
+      "stadt": "Cottbus",
+      "slug": "cottbus",
+      "tier": 2,
+      "region": "Brandenburg · Stadt Cottbus (kreisfrei)",
+      "hook": "Lausitz-Metropole & Energie-Region",
+      "stadtteile": ["Spremberger Vorstadt","Sandow","Ströbitz","Mitte","Sachsendorf","Madlow","Dissenchen","Branitz"],
+      "preis_keller": "120",
+      "preis_wohnung": "265",
+      "tier2_absatz": "Cottbus hat große Plattenbausiedlungen aus DDR-Zeiten – besonders Sandow und Sachsendorf. Der Strukturwandel in der Lausitz (Kohleausstieg) führt zu Wegzug und damit Wohnungsauflösungen. Kellerentrümpelungen aus WBS-70-Bauten sind der häufigste Auftragstyp."
+    },
+    {
+      "stadt": "Brandenburg an der Havel",
+      "slug": "brandenburg-havel",
+      "tier": 1,
+      "region": "Brandenburg · Stadt Brandenburg (kreisfrei)",
+      "stadtteile": ["Innenstadt","Görden","Hohenstücken","Nord","Plaue","Kirchmöser","Wust","Reckahn"],
+      "preis_keller": "120",
+      "preis_wohnung": "265"
+    },
+    {
+      "stadt": "Frankfurt (Oder)",
+      "slug": "frankfurt-oder",
+      "tier": 1,
+      "region": "Brandenburg · Stadt Frankfurt (Oder) (kreisfrei)",
+      "stadtteile": ["Innenstadt","Beresinchen","Kliestow","Lossow","Markendorf","Booßen","Güldendorf","Rosengarten"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Eberswalde",
+      "slug": "eberswalde",
+      "tier": 1,
+      "region": "Brandenburg · Landkreis Barnim",
+      "stadtteile": ["Innenstadt","Brandenburgisches Viertel","Finow","Spechthausen","Sommerfelde","Tornow","Sandkrug","Ostend"],
+      "preis_keller": "120",
+      "preis_wohnung": "265"
+    },
+    {
+      "stadt": "Neuruppin",
+      "slug": "neuruppin",
+      "tier": 1,
+      "region": "Brandenburg · Landkreis Ostprignitz-Ruppin",
+      "stadtteile": ["Innenstadt","Treskow","Alt Ruppin","Gildenhall","Wuthenow","Buskow","Karwe","Radensleben"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Schwedt/Oder",
+      "slug": "schwedt",
+      "tier": 1,
+      "region": "Brandenburg · Landkreis Uckermark",
+      "stadtteile": ["Innenstadt","Kastanienallee","Waldrand","Teer","Stendell","Criewen","Vierraden","Zützen"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Senftenberg",
+      "slug": "senftenberg",
+      "tier": 1,
+      "region": "Brandenburg · Landkreis Oberspreewald-Lausitz",
+      "stadtteile": ["Innenstadt","Brieske","Hosena","Niemtsch","Großkoschen","Peickwitz","Sedlitz","Skado"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Rostock",
+      "slug": "rostock",
+      "tier": 2,
+      "region": "Mecklenburg-Vorpommern · Hansestadt Rostock (kreisfrei)",
+      "hook": "Hansestadt & Ostseehafen",
+      "stadtteile": ["Lütten Klein","Evershagen","Groß Klein","Toitenwinkel","Dierkow","Reutershagen","Südstadt","Innenstadt"],
+      "preis_keller": "130",
+      "preis_wohnung": "300",
+      "tier2_absatz": "Rostock hat mit Lütten Klein und Evershagen große DDR-Plattenbausiedlungen. Als Universitäts- und Hafenstadt gibt es zusätzlich häufige Studentenwohnungs-Räumungen. Ferienwohnungen im Küstenumland (Warnemünde, Graal-Müritz) werden bei Erbschaft regelmäßig aufgelöst."
+    },
+    {
+      "stadt": "Schwerin",
+      "slug": "schwerin",
+      "tier": 2,
+      "region": "Mecklenburg-Vorpommern · Landeshauptstadt (kreisfrei)",
+      "hook": "Schlossstadt & Seenlandschaft",
+      "stadtteile": ["Lankow","Großer Dreesch","Mueßer Holz","Innenstadt","Paulsstadt","Weststadt","Feldstadt","Görries"],
+      "preis_keller": "120",
+      "preis_wohnung": "270",
+      "tier2_absatz": "Schwerin hat mit dem Großen Dreesch eine der größten Plattenbausiedlungen Mecklenburgs. Die Landeshauptstadt hat zudem viele gründerzeitliche Wohnhäuser rund um den Pfaffenteich, bei denen Wohnungsauflösungen nach Erbschaft häufig sind."
+    },
+    {
+      "stadt": "Neubrandenburg",
+      "slug": "neubrandenburg",
+      "tier": 1,
+      "region": "Mecklenburg-Vorpommern · Landkreis Mecklenburgische Seenplatte",
+      "stadtteile": ["Innenstadt","Datzeberg","Lindenberg","Oststadt","Weststadt","Ihlenfelder Vorstadt","Fritscheshof","Katharinenviertel"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Stralsund",
+      "slug": "stralsund",
+      "tier": 1,
+      "region": "Mecklenburg-Vorpommern · Landkreis Vorpommern-Rügen",
+      "stadtteile": ["Altstadt","Grünhufe","Knieper West","Knieper Nord","Frankenvorstadt","Tribseer Vorstadt","Andershof","Devin"],
+      "preis_keller": "120",
+      "preis_wohnung": "265"
+    },
+    {
+      "stadt": "Greifswald",
+      "slug": "greifswald",
+      "tier": 1,
+      "region": "Mecklenburg-Vorpommern · Landkreis Vorpommern-Greifswald",
+      "stadtteile": ["Innenstadt","Schönwalde I","Schönwalde II","Südstadt","Oststadt","Eldena","Wieck","Ladebow"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Wismar",
+      "slug": "wismar",
+      "tier": 1,
+      "region": "Mecklenburg-Vorpommern · Landkreis Nordwestmecklenburg",
+      "stadtteile": ["Altstadt","Friedenshof","Wendorf","Dargetzow","Kritzow","Kahlenberg","Kleiner Kannenort","Zugsdorf"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Güstrow",
+      "slug": "guestrow",
+      "tier": 1,
+      "region": "Mecklenburg-Vorpommern · Landkreis Rostock",
+      "stadtteile": ["Innenstadt","Südstadt","Nordstadt","Heidberg","Schabernack","Glasewitz","Lüssow","Bockhorst"],
+      "preis_keller": "120",
+      "preis_wohnung": "250"
+    },
+    {
+      "stadt": "Braunschweig",
+      "slug": "braunschweig",
+      "tier": 2,
+      "region": "Niedersachsen · Stadt Braunschweig (kreisfrei)",
+      "hook": "Löwenstadt & VW-Region",
+      "stadtteile": ["Weststadt","Heidberg","Lehndorf","Stöckheim","Wenden","Rüningen","Mascherode","Östliches Ringgebiet"],
+      "preis_keller": "140",
+      "preis_wohnung": "320",
+      "tier2_absatz": "Braunschweig als Hochschulstadt (TU, HBK) hat einen hohen Anteil an Studentenwohnungen und Mietwohnungen mit hoher Fluktuation. Wohnungsauflösungen nach Auszug oder Erbschaft in den Gründerzeithäusern des Ringgebiets sind ein häufiger Auftragstyp."
+    },
+    {
+      "stadt": "Osnabrück",
+      "slug": "osnabrueck",
+      "tier": 2,
+      "region": "Niedersachsen · Stadt Osnabrück (kreisfrei)",
+      "hook": "Friedensstadt & Westfälisches Tor",
+      "stadtteile": ["Innenstadt","Wüste","Schinkel","Voxtrup","Sutthausen","Hellern","Darum","Gartlage"],
+      "preis_keller": "140",
+      "preis_wohnung": "310",
+      "tier2_absatz": "Osnabrück ist eine mittelgroße Universitätsstadt mit vielen Altbauwohnungen in der Innenstadt und Schinkel. Wohnungsauflösungen nach Erbschaft in den gründerzeitlichen Vierteln rund um den Schlossgarten sind ein klassischer Auftragstyp."
+    },
+    {
+      "stadt": "Oldenburg (Oldb)",
+      "slug": "oldenburg",
+      "tier": 2,
+      "region": "Niedersachsen · Stadt Oldenburg (kreisfrei)",
+      "hook": "Universitätsstadt & Jade-Weser-Region",
+      "stadtteile": ["Innenstadt","Bümmerstede","Ohmstede","Nadorst","Osternburg","Eversten","Donnerschwee","Tweelbäke"],
+      "preis_keller": "140",
+      "preis_wohnung": "320",
+      "tier2_absatz": "Oldenburg als Universitätsstadt hat viele Studentenwohnungen und Altbauwohnungen in der Innenstadt. Wohnungsauflösungen und Kellerentrümpelungen nach Erbschaft in der Gründerzeit-Bebauung rund um den Schlossgarten sind häufig."
+    },
+    {
+      "stadt": "Göttingen",
+      "slug": "goettingen",
+      "tier": 2,
+      "region": "Niedersachsen · Stadt Göttingen (kreisfrei)",
+      "hook": "Universitätsstadt & Wissenschaftsstadt",
+      "stadtteile": ["Innenstadt","Grone","Weende","Geismar","Nikolausberg","Rosdorf","Elliehausen","Hetjershausen"],
+      "preis_keller": "140",
+      "preis_wohnung": "320",
+      "tier2_absatz": "Göttingen als eine der traditionsreichsten Universitätsstädte Deutschlands hat viele Altbauwohnungen und Studentenmöblierungen im Stadtbereich. Wohnungsauflösungen und Keller-Räumungen in den gründerzeitlichen Vierteln rund um die Innenstadt sind häufige Aufträge."
+    },
+    {
+      "stadt": "Wolfsburg",
+      "slug": "wolfsburg",
+      "tier": 1,
+      "region": "Niedersachsen · Stadt Wolfsburg (kreisfrei)",
+      "stadtteile": ["Innenstadt","Fallersleben","Vorsfelde","Detmerode","Westhagen","Mörse","Barnstorf","Kästorf"],
+      "preis_keller": "140",
+      "preis_wohnung": "320"
+    },
+    {
+      "stadt": "Salzgitter",
+      "slug": "salzgitter",
+      "tier": 1,
+      "region": "Niedersachsen · Stadt Salzgitter (kreisfrei)",
+      "stadtteile": ["Lebenstedt","Bad","Gebhardshagen","Thiede","Engelnstedt","Lobmachtersen","Ringelheim","Salder"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Hildesheim",
+      "slug": "hildesheim",
+      "tier": 1,
+      "region": "Niedersachsen · Landkreis Hildesheim",
+      "stadtteile": ["Innenstadt","Ochtersum","Ost","Marienburger Höhe","Drispenstedt","Bavenstedt","Himmelsthür","Söhre"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Lüneburg",
+      "slug": "lueneburg",
+      "tier": 1,
+      "region": "Niedersachsen · Landkreis Lüneburg",
+      "stadtteile": ["Altstadt","Kaltenmoor","Ochtmissen","Ebensberg","Rettmer","Moorfeld","Lüne","Häcklingen"],
+      "preis_keller": "130",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Hameln",
+      "slug": "hameln",
+      "tier": 1,
+      "region": "Niedersachsen · Landkreis Hameln-Pyrmont",
+      "stadtteile": ["Innenstadt","Südstadt","Nordstadt","Wehl","Tündern","Klein Berkel","Rohrsen","Afferde"],
+      "preis_keller": "130",
+      "preis_wohnung": "280"
+    },
+    {
+      "stadt": "Celle",
+      "slug": "celle",
+      "tier": 1,
+      "region": "Niedersachsen · Landkreis Celle",
+      "stadtteile": ["Innenstadt","Neustadt","Blumläger Feld","Altencelle","Bostel","Westercelle","Lachtehausen","Boye"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Wilhelmshaven",
+      "slug": "wilhelmshaven",
+      "tier": 1,
+      "region": "Niedersachsen · Stadt Wilhelmshaven (kreisfrei)",
+      "stadtteile": ["Innenstadt","Fedderwardergroden","Heppens","Bant","Siebethsburg","Altengroden","Maadebogen","Rüstersiel"],
+      "preis_keller": "120",
+      "preis_wohnung": "265"
+    },
+    {
+      "stadt": "Goslar",
+      "slug": "goslar",
+      "tier": 1,
+      "region": "Niedersachsen · Landkreis Goslar",
+      "stadtteile": ["Innenstadt","Jürgenohl","Grauhof","Georgenberg","Oker","Vienenburg","Hahnenklee","Clausthal-Zellerfeld"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Kiel",
+      "slug": "kiel",
+      "tier": 2,
+      "region": "Schleswig-Holstein · Landeshauptstadt (kreisfrei)",
+      "hook": "Fördestadt & Segelmetropole",
+      "stadtteile": ["Gaarden","Mettenhof","Neumühlen-Dietrichsdorf","Hassee","Elmschenhagen","Wellingdorf","Ellerbek","Innenstadt"],
+      "preis_keller": "150",
+      "preis_wohnung": "340",
+      "tier2_absatz": "Kiel hat als Marinestandort und Universitätsstadt eine hohe Bevölkerungsfluktuation. Gaarden und Mettenhof haben viele Nachkriegsbauten mit vollgestellten Kellerabteilen. Wohnungsauflösungen nach Erbschaft in den Gründerzeithäusern rund um die Förde sind häufig."
+    },
+    {
+      "stadt": "Lübeck",
+      "slug": "luebeck",
+      "tier": 2,
+      "region": "Schleswig-Holstein · Hansestadt Lübeck (kreisfrei)",
+      "hook": "UNESCO-Altstadt & Hansestadt",
+      "stadtteile": ["Altstadt","Moisling","Buntekuh","St. Lorenz Süd","Schlutup","Travemünde","Kücknitz","Marli"],
+      "preis_keller": "150",
+      "preis_wohnung": "340",
+      "tier2_absatz": "Lübeck hat neben der historischen Altstadt große Nachkriegssiedlungen in Buntekuh und Moisling. Wohnungsauflösungen in den Altbauwohnungen der Gründerzeit-Viertel rund um den Bahnhof und die Alfstraße sind klassische Auftragstypen."
+    },
+    {
+      "stadt": "Flensburg",
+      "slug": "flensburg",
+      "tier": 1,
+      "region": "Schleswig-Holstein · Stadt Flensburg (kreisfrei)",
+      "stadtteile": ["Innenstadt","Jürgensby","Mürwik","Fruerlund","Weiche","Engelsby","Tarup","Rude"],
+      "preis_keller": "140",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Neumünster",
+      "slug": "neumuenster",
+      "tier": 1,
+      "region": "Schleswig-Holstein · Stadt Neumünster (kreisfrei)",
+      "stadtteile": ["Innenstadt","Einfeld","Gadeland","Tungendorf","Brachenfeld","Gartenstadt","Wittorf","Faldera"],
+      "preis_keller": "140",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Bremen",
+      "slug": "bremen",
+      "tier": 2,
+      "region": "Bremen · Freie Hansestadt",
+      "hook": "Hansestadt & Weserwehr",
+      "stadtteile": ["Gröpelingen","Walle","Findorff","Schwachhausen","Ostertor","Viertel","Neustadt","Hemelingen"],
+      "preis_keller": "150",
+      "preis_wohnung": "350",
+      "tier2_absatz": "Bremen hat viele gründerzeitliche Altbauviertel in Schwachhausen und dem Viertel, wo Wohnungsauflösungen nach Erbschaft häufig sind. Gröpelingen und Walle haben viele Nachkriegsbauten mit vollgestellten Kellerabteilen."
+    },
+    {
+      "stadt": "Bremerhaven",
+      "slug": "bremerhaven",
+      "tier": 1,
+      "region": "Bremen · Seestadt Bremerhaven",
+      "stadtteile": ["Innenstadt","Lehe","Geestemünde","Wulsdorf","Fischereihafen","Leherheide","Surheide","Schiffdorf"],
+      "preis_keller": "130",
+      "preis_wohnung": "280"
+    },
+    {
+      "stadt": "Wiesbaden",
+      "slug": "wiesbaden",
+      "tier": 2,
+      "region": "Hessen · Landeshauptstadt (kreisfrei)",
+      "hook": "Kurstadt & Landeshauptstadt",
+      "stadtteile": ["Innenstadt","Biebrich","Erbenheim","Kastel","Nordenstadt","Dotzheim","Kloppenheim","Bierstadt"],
+      "preis_keller": "160",
+      "preis_wohnung": "380",
+      "tier2_absatz": "Wiesbaden als wohlhabende Landeshauptstadt hat viele Gründerzeithäuser und Villen in der Nordstadt und dem Rheingauviertel. Wohnungsauflösungen nach Erbschaft in diesen gehobenen Vierteln sind häufig – und oft umfangreich."
+    },
+    {
+      "stadt": "Kassel",
+      "slug": "kassel",
+      "tier": 2,
+      "region": "Hessen · Stadt Kassel (kreisfrei)",
+      "hook": "Documenta-Stadt & Hercules",
+      "stadtteile": ["Innenstadt","Bettenhausen","Oberzwehren","Nord-Holland","Wehlheiden","Jungfernkopf","Wolfsanger","Philippinenhof"],
+      "preis_keller": "130",
+      "preis_wohnung": "290",
+      "tier2_absatz": "Kassel hat große Nachkriegssiedlungen in Bettenhausen und Nord-Holland. Die Universität bringt viele Studentenwohnungen in Wehlheiden und der Innenstadt. Wohnungsauflösungen nach Erbschaft in den Gründerzeithäusern sind ein klassischer Auftragstyp."
+    },
+    {
+      "stadt": "Darmstadt",
+      "slug": "darmstadt",
+      "tier": 2,
+      "region": "Hessen · Wissenschaftsstadt Darmstadt (kreisfrei)",
+      "hook": "Wissenschaftsstadt & Jugendstil",
+      "stadtteile": ["Innenstadt","Bessungen","Eberstadt","Kranichstein","Wixhausen","Arheilgen","Griesheim","Roßdorf"],
+      "preis_keller": "160",
+      "preis_wohnung": "380",
+      "tier2_absatz": "Darmstadt als Wissenschaftsstadt mit TU und mehreren Forschungsinstituten hat viele Studentenwohnungen. Jugendstilviertel und Gründerzeithäuser in der Innenstadt und Bessungen sind klassische Orte für Wohnungsauflösungen nach Erbschaft."
+    },
+    {
+      "stadt": "Fulda",
+      "slug": "fulda",
+      "tier": 1,
+      "region": "Hessen · Landkreis Fulda",
+      "stadtteile": ["Innenstadt","Fulda-Nord","Neuenberg","Horas","Malkes","Pilgerzell","Petersberg","Kämmerzell"],
+      "preis_keller": "130",
+      "preis_wohnung": "285"
+    },
+    {
+      "stadt": "Gießen",
+      "slug": "giessen",
+      "tier": 1,
+      "region": "Hessen · Landkreis Gießen",
+      "stadtteile": ["Innenstadt","Wieseck","Rödgen","Heuchelheim","Krofdorf-Gleiberg","Lützellinden","Kleinlinden","Allendorf"],
+      "preis_keller": "140",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Marburg",
+      "slug": "marburg",
+      "tier": 1,
+      "region": "Hessen · Landkreis Marburg-Biedenkopf",
+      "stadtteile": ["Innenstadt","Wehrda","Cappel","Marbach","Richtsberg","Ortenberg","Ginseldorf","Bauerbach"],
+      "preis_keller": "140",
+      "preis_wohnung": "320"
+    },
+    {
+      "stadt": "Hanau",
+      "slug": "hanau",
+      "tier": 1,
+      "region": "Hessen · Main-Kinzig-Kreis",
+      "stadtteile": ["Innenstadt","Kesselstadt","Wolfgang","Großauheim","Klein-Auheim","Steinheim","Mittelbuchen","Lamboy"],
+      "preis_keller": "150",
+      "preis_wohnung": "340"
+    },
+    {
+      "stadt": "Wetzlar",
+      "slug": "wetzlar",
+      "tier": 1,
+      "region": "Hessen · Lahn-Dill-Kreis",
+      "stadtteile": ["Innenstadt","Garbenheim","Naunheim","Hermannstein","Dutenhofen","Münchholzhausen","Nauborn","Blasbach"],
+      "preis_keller": "140",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Mainz",
+      "slug": "mainz",
+      "tier": 2,
+      "region": "Rheinland-Pfalz · Landeshauptstadt (kreisfrei)",
+      "hook": "Dom-Stadt & Gutenberg-Stadt",
+      "stadtteile": ["Innenstadt","Lerchenberg","Bretzenheim","Drais","Finthen","Mombach","Gonsenheim","Hechtsheim"],
+      "preis_keller": "160",
+      "preis_wohnung": "380",
+      "tier2_absatz": "Mainz als Universitätsstadt und Medienstandort hat viele Studentenwohnungen und gut gehende Altbauviertel. Wohnungsauflösungen nach Erbschaft in den Gründerzeithäusern der Neustadt sind häufig – oft mit wertvollem Hausrat aus langen Mietverhältnissen."
+    },
+    {
+      "stadt": "Ludwigshafen am Rhein",
+      "slug": "ludwigshafen",
+      "tier": 2,
+      "region": "Rheinland-Pfalz · Stadt Ludwigshafen (kreisfrei)",
+      "hook": "Chemiestadt & BASF-Standort",
+      "stadtteile": ["Innenstadt","Oggersheim","Oppau","Mundenheim","Friesenheim","Gartenstadt","Rheingönheim","Ruchheim"],
+      "preis_keller": "140",
+      "preis_wohnung": "310",
+      "tier2_absatz": "Ludwigshafen als Industriestadt mit BASF hat viele Arbeiterwohnviertel mit Nachkriegsbebauung. Kellerentrümpelungen in diesen Wohngebieten und Wohnungsauflösungen nach Erbschaft in der Gartenstadt sind häufige Auftragstypen."
+    },
+    {
+      "stadt": "Trier",
+      "slug": "trier",
+      "tier": 2,
+      "region": "Rheinland-Pfalz · Stadt Trier (kreisfrei)",
+      "hook": "Römerstadt & älteste Stadt Deutschlands",
+      "stadtteile": ["Innenstadt","Pallien","Trier-West","Euren","Ehrang","Ruwer","Zewen","Olewig"],
+      "preis_keller": "130",
+      "preis_wohnung": "300",
+      "tier2_absatz": "Trier als Universitätsstadt und älteste Stadt Deutschlands hat viele historische Altbauwohnungen in der Innenstadt und rund um die Porta Nigra. Wohnungsauflösungen nach langen Mietverhältnissen und Erbschaftsfälle sind häufig."
+    },
+    {
+      "stadt": "Worms",
+      "slug": "worms",
+      "tier": 1,
+      "region": "Rheinland-Pfalz · Stadt Worms (kreisfrei)",
+      "stadtteile": ["Innenstadt","Hochheim","Abenheim","Pfeddersheim","Rheindürkheim","Horchheim","Heppenheim","Neuhausen"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Pirmasens",
+      "slug": "pirmasens",
+      "tier": 1,
+      "region": "Rheinland-Pfalz · Stadt Pirmasens (kreisfrei)",
+      "stadtteile": ["Innenstadt","Fehrbach","Gersbach","Winzeln","Erlenbrunn","Niedersimten","Hengsberg","Lemberg"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Bad Kreuznach",
+      "slug": "bad-kreuznach",
+      "tier": 1,
+      "region": "Rheinland-Pfalz · Landkreis Bad Kreuznach",
+      "stadtteile": ["Innenstadt","Planig","Winzenheim","Ippesheim","Bosenheim","Bretzenheim","Hargesheim","Roxheim"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Landau in der Pfalz",
+      "slug": "landau",
+      "tier": 1,
+      "region": "Rheinland-Pfalz · Stadt Landau (kreisfrei)",
+      "stadtteile": ["Innenstadt","Godramstein","Nußdorf","Wollmesheim","Arzheim","Dammheim","Mörlheim","Queichheim"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Saarbrücken",
+      "slug": "saarbruecken",
+      "tier": 2,
+      "region": "Saarland · Landeshauptstadt",
+      "hook": "Universitätsstadt & deutsch-französische Grenzstadt",
+      "stadtteile": ["St. Johann","Malstatt","Burbach","Dudweiler","Schafbrücke","Herrensohr","Altenkessel","Bischmisheim"],
+      "preis_keller": "130",
+      "preis_wohnung": "290",
+      "tier2_absatz": "Saarbrücken hat als Universitätsstadt viele Studentenwohnungen in St. Johann und rund um den Campus. Die Arbeiterviertel in Malstatt und Burbach mit ihren Nachkriegsbauten haben hohen Kellerentrümpelungsbedarf."
+    },
+    {
+      "stadt": "Neunkirchen (Saar)",
+      "slug": "neunkirchen-saar",
+      "tier": 1,
+      "region": "Saarland · Landkreis Neunkirchen",
+      "stadtteile": ["Innenstadt","Kohlhof","Wiebelskirchen","Heinitz","Wellesweiler","Schiffweiler","Landsweiler","Münchwies"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Homburg (Saar)",
+      "slug": "homburg-saar",
+      "tier": 1,
+      "region": "Saarland · Saarpfalz-Kreis",
+      "stadtteile": ["Innenstadt","Erbach","Einöd","Websweiler","Bruchhof","Schwarzenbach","Jägersburg","Reiskirchen"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Völklingen",
+      "slug": "voelklingen",
+      "tier": 1,
+      "region": "Saarland · Stadtverband Saarbrücken",
+      "stadtteile": ["Innenstadt","Fürstenhausen","Geislautern","Heidstock","Wehrden","Ludweiler","Lauterbach","Überherrn"],
+      "preis_keller": "120",
+      "preis_wohnung": "255"
+    },
+    {
+      "stadt": "Freiburg im Breisgau",
+      "slug": "freiburg",
+      "tier": 2,
+      "region": "Baden-Württemberg · Stadt Freiburg (kreisfrei)",
+      "hook": "Universitätsstadt & Tor zum Schwarzwald",
+      "stadtteile": ["Innenstadt","Wiehre","Stühlinger","Haslach","Betzenhausen","Zähringen","Gundelfingen","Merzhausen"],
+      "preis_keller": "160",
+      "preis_wohnung": "400",
+      "tier2_absatz": "Freiburg als beliebte Universitätsstadt hat angespannten Wohnungsmarkt und viele Altbauwohnungen in der Wiehre und dem Stühlinger. Wohnungsauflösungen nach langen Mietverhältnissen und Erbschaft in diesen Vierteln sind häufige Aufträge."
+    },
+    {
+      "stadt": "Heidelberg",
+      "slug": "heidelberg",
+      "tier": 2,
+      "region": "Baden-Württemberg · Stadtkreis Heidelberg",
+      "hook": "Universitätsstadt & Schlossstadt",
+      "stadtteile": ["Altstadt","Bergheim","Neuenheim","Weststadt","Kirchheim","Wieblingen","Pfaffengrund","Handschuhsheim"],
+      "preis_keller": "160",
+      "preis_wohnung": "400",
+      "tier2_absatz": "Heidelberg als eine der ältesten Universitätsstädte Deutschlands hat viele gründerzeitliche Altbauwohnungen in Bergheim und Neuenheim. Wohnungsauflösungen nach langen Mietverhältnissen und Erbschaftsfälle in diesen gehobenen Vierteln sind klassische Auftragstypen."
+    },
+    {
+      "stadt": "Heilbronn",
+      "slug": "heilbronn",
+      "tier": 2,
+      "region": "Baden-Württemberg · Stadtkreis Heilbronn",
+      "hook": "Weinstadt & Neckarperle",
+      "stadtteile": ["Innenstadt","Böckingen","Sontheim","Neckargartach","Kirchhausen","Horkheim","Frankenbach","Biberach"],
+      "preis_keller": "140",
+      "preis_wohnung": "330",
+      "tier2_absatz": "Heilbronn hat viele Nachkriegsbauten in Böckingen und Sontheim sowie Gründerzeithäuser in der Innenstadt. Wohnungsauflösungen nach Erbschaft und Kellerentrümpelungen in den dichten Wohngebieten sind regelmäßige Auftragstypen."
+    },
+    {
+      "stadt": "Ulm",
+      "slug": "ulm",
+      "tier": 2,
+      "region": "Baden-Württemberg · Stadtkreis Ulm",
+      "hook": "Münsterstadt & Einsteinstadt",
+      "stadtteile": ["Innenstadt","Böfingen","Wiblingen","Söflingen","Donautal","Grimmelfingen","Lehr","Unterweiler"],
+      "preis_keller": "140",
+      "preis_wohnung": "340",
+      "tier2_absatz": "Ulm als Universitäts- und Industriestadt hat viele Nachkriegsbauten in Böfingen und Söflingen. Die Hochschule bringt Studentenwohnungen mit, die bei Exmatrikulation oder Umzug geräumt werden müssen."
+    },
+    {
+      "stadt": "Pforzheim",
+      "slug": "pforzheim",
+      "tier": 1,
+      "region": "Baden-Württemberg · Stadtkreis Pforzheim",
+      "stadtteile": ["Innenstadt","Brötzingen","Eutingen","Huchenfeld","Dillweißenstein","Würm","Hohenwart","Ispringen"],
+      "preis_keller": "140",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Reutlingen",
+      "slug": "reutlingen",
+      "tier": 1,
+      "region": "Baden-Württemberg · Landkreis Reutlingen",
+      "stadtteile": ["Innenstadt","Orschel-Hagen","Betzingen","Degerschlacht","Sondelfingen","Gönningen","Ohmenhausen","Mittelstadt"],
+      "preis_keller": "140",
+      "preis_wohnung": "330"
+    },
+    {
+      "stadt": "Tübingen",
+      "slug": "tuebingen",
+      "tier": 1,
+      "region": "Baden-Württemberg · Landkreis Tübingen",
+      "stadtteile": ["Innenstadt","Derendingen","Lustnau","Weststadt","Südstadt","Bebenhausen","Pfrondorf","Unterjesingen"],
+      "preis_keller": "150",
+      "preis_wohnung": "360"
+    },
+    {
+      "stadt": "Konstanz",
+      "slug": "konstanz",
+      "tier": 1,
+      "region": "Baden-Württemberg · Landkreis Konstanz",
+      "stadtteile": ["Innenstadt","Paradies","Petershausen","Fürstenberg","Dingelsdorf","Dettingen","Litzelstetten","Wollmatingen"],
+      "preis_keller": "150",
+      "preis_wohnung": "370"
+    },
+    {
+      "stadt": "Ravensburg",
+      "slug": "ravensburg",
+      "tier": 1,
+      "region": "Baden-Württemberg · Landkreis Ravensburg",
+      "stadtteile": ["Innenstadt","Nordstadt","Südstadt","Eschach","Taldorf","Schmalegg","Oberzell","Torkenweiler"],
+      "preis_keller": "140",
+      "preis_wohnung": "330"
+    },
+    {
+      "stadt": "Friedrichshafen",
+      "slug": "friedrichshafen",
+      "tier": 1,
+      "region": "Baden-Württemberg · Bodenseekreis",
+      "stadtteile": ["Innenstadt","Ailingen","Fischbach","Schnetzenhausen","Löwental","Kluftern","Jettenhausen","Efrizweiler"],
+      "preis_keller": "140",
+      "preis_wohnung": "340"
+    },
+    {
+      "stadt": "Villingen-Schwenningen",
+      "slug": "villingen-schwenningen",
+      "tier": 1,
+      "region": "Baden-Württemberg · Schwarzwald-Baar-Kreis",
+      "stadtteile": ["Villingen","Schwenningen","Marbach","Weigheim","Obereschach","Weilersbach","Tannheim","Herzogenweiler"],
+      "preis_keller": "130",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Esslingen am Neckar",
+      "slug": "esslingen",
+      "tier": 1,
+      "region": "Baden-Württemberg · Landkreis Esslingen",
+      "stadtteile": ["Innenstadt","Mettingen","Zell","Oberesslingen","Berkheim","Kennenburg","Sulzgries","Liebersbronn"],
+      "preis_keller": "150",
+      "preis_wohnung": "360"
+    },
+    {
+      "stadt": "Ludwigsburg",
+      "slug": "ludwigsburg",
+      "tier": 1,
+      "region": "Baden-Württemberg · Landkreis Ludwigsburg",
+      "stadtteile": ["Innenstadt","Eglosheim","Oßweil","Poppenweiler","Neckarweihingen","Hoheneck","Pflugfelden","Stadtmitte"],
+      "preis_keller": "150",
+      "preis_wohnung": "360"
+    },
+    {
+      "stadt": "Ingolstadt",
+      "slug": "ingolstadt",
+      "tier": 2,
+      "region": "Bayern · Stadt Ingolstadt (kreisfrei)",
+      "hook": "Audi-Stadt & Donaustadt",
+      "stadtteile": ["Innenstadt","Haunwöhr","Ringsee","Friedrichshofen","Zuchering","Unsernherrn","Oberhaunstadt","Gerolfing"],
+      "preis_keller": "150",
+      "preis_wohnung": "360",
+      "tier2_absatz": "Ingolstadt hat als Audi-Standort viele Zuzügler aus ganz Deutschland – entsprechend hoch ist die Fluktuation. Wohnungsauflösungen nach Wegzug und Kellerentrümpelungen in den Wohngebieten rund um das Audi-Werk sind häufige Auftragstypen."
+    },
+    {
+      "stadt": "Regensburg",
+      "slug": "regensburg",
+      "tier": 2,
+      "region": "Bayern · Stadt Regensburg (kreisfrei)",
+      "hook": "UNESCO-Altstadt & Universitätsstadt",
+      "stadtteile": ["Innenstadt","Steinweg","Konradsiedlung","Sallern","Schwabelweis","Harting","Königswiesen","Burgweinting"],
+      "preis_keller": "150",
+      "preis_wohnung": "370",
+      "tier2_absatz": "Regensburg als Universitätsstadt mit UNESCO-Altstadt hat viele gründerzeitliche Altbauwohnungen in der Innenstadt und Steinweg. Wohnungsauflösungen nach Erbschaft in diesen gefragten Vierteln sind häufig und oft umfangreich."
+    },
+    {
+      "stadt": "Würzburg",
+      "slug": "wuerzburg",
+      "tier": 2,
+      "region": "Bayern · Stadt Würzburg (kreisfrei)",
+      "hook": "Residenzstadt & Weinfranken",
+      "stadtteile": ["Innenstadt","Sanderau","Zellerau","Grombühl","Heuchelhof","Lengfeld","Rottenbauer","Versbach"],
+      "preis_keller": "140",
+      "preis_wohnung": "330",
+      "tier2_absatz": "Würzburg als Universitätsstadt und Bischofsresidenz hat viele Altbauwohnungen in der Innenstadt und Sanderau. Wohnungsauflösungen nach Erbschaft in diesen Vierteln sind regelmäßige Auftragstypen – oft mit jahrhundertealtem Hausrat."
+    },
+    {
+      "stadt": "Erlangen",
+      "slug": "erlangen",
+      "tier": 2,
+      "region": "Bayern · Stadt Erlangen (kreisfrei)",
+      "hook": "Siemens-Stadt & Universitätsstadt",
+      "stadtteile": ["Innenstadt","Büchenbach","Alterlangen","Frauenaurach","Häusling","Eltersdorf","Kriegenbrunn","Großdechsendorf"],
+      "preis_keller": "150",
+      "preis_wohnung": "360",
+      "tier2_absatz": "Erlangen als Siemens-Standort und Universitätsstadt hat viele Mitarbeiterwohnungen und Studentenwohnheime. Die hohe Fluktuation durch Versetzungen und Exmatrikulationen führt zu vielen Wohnungsauflösungen und Kellerräumungen."
+    },
+    {
+      "stadt": "Fürth",
+      "slug": "fuerth",
+      "tier": 1,
+      "region": "Bayern · Stadt Fürth (kreisfrei)",
+      "stadtteile": ["Innenstadt","Südstadt","Poppenreuth","Ronhof","Stadeln","Atzenhof","Herboldshof","Burgfarrnbach"],
+      "preis_keller": "140",
+      "preis_wohnung": "320"
+    },
+    {
+      "stadt": "Bamberg",
+      "slug": "bamberg",
+      "tier": 1,
+      "region": "Bayern · Stadt Bamberg (kreisfrei)",
+      "stadtteile": ["Innenstadt","Bug","Gereuth","Hochgericht","Wunderburg","Gartenstadt","Gaustadt","Kramersfeld"],
+      "preis_keller": "130",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Landshut",
+      "slug": "landshut",
+      "tier": 1,
+      "region": "Bayern · Stadt Landshut (kreisfrei)",
+      "stadtteile": ["Innenstadt","Achdorf","Schönbrunn","Münchnerau","Nikola","Paul-Gerhardt-Allee","Wörth","Kumhausen"],
+      "preis_keller": "140",
+      "preis_wohnung": "330"
+    },
+    {
+      "stadt": "Rosenheim",
+      "slug": "rosenheim",
+      "tier": 1,
+      "region": "Bayern · Stadt Rosenheim (kreisfrei)",
+      "stadtteile": ["Innenstadt","Aicherau","Fürstätt","Kastenau","Thurnham","Westerndorf am Wasen","Pang","Happing"],
+      "preis_keller": "140",
+      "preis_wohnung": "340"
+    },
+    {
+      "stadt": "Kempten (Allgäu)",
+      "slug": "kempten",
+      "tier": 1,
+      "region": "Bayern · Stadt Kempten (kreisfrei)",
+      "stadtteile": ["Innenstadt","Thingers","Lenzfried","Leubas","Hegge","Martinszell","Durach","Oberstaufen"],
+      "preis_keller": "140",
+      "preis_wohnung": "330"
+    },
+    {
+      "stadt": "Aschaffenburg",
+      "slug": "aschaffenburg",
+      "tier": 1,
+      "region": "Bayern · Stadt Aschaffenburg (kreisfrei)",
+      "stadtteile": ["Innenstadt","Damm","Leider","Nilkheim","Schweinheim","Gailbach","Obernau","Strietwald"],
+      "preis_keller": "140",
+      "preis_wohnung": "330"
+    },
+    {
+      "stadt": "Bayreuth",
+      "slug": "bayreuth",
+      "tier": 1,
+      "region": "Bayern · Stadt Bayreuth (kreisfrei)",
+      "stadtteile": ["Innenstadt","Lerchenbühl","Altstadt","Meyernberg","Hohes Kreuz","Stadtrand","Aichig","Oberkonnersreuth"],
+      "preis_keller": "130",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Aachen",
+      "slug": "aachen",
+      "tier": 2,
+      "region": "Nordrhein-Westfalen · Stadt Aachen (kreisfrei)",
+      "hook": "Kaiserstadt & RWTH-Uni",
+      "stadtteile": ["Innenstadt","Laurensberg","Haaren","Brand","Richterich","Kornelimünster","Eilendorf","Vaalserquartier"],
+      "preis_keller": "150",
+      "preis_wohnung": "340",
+      "tier2_absatz": "Aachen als Universitätsstadt mit RWTH und FH hat viele Studentenwohnungen – besonders rund um den Campus Melaten. Wohnungsauflösungen nach Erbschaft in den gründerzeitlichen Vierteln der Innenstadt sind häufige Auftragstypen."
+    },
+    {
+      "stadt": "Krefeld",
+      "slug": "krefeld",
+      "tier": 2,
+      "region": "Nordrhein-Westfalen · Stadt Krefeld (kreisfrei)",
+      "hook": "Seidenstadt am Niederrhein",
+      "stadtteile": ["Innenstadt","Uerdingen","Hüls","Oppum","Traar","Fischeln","Forstwald","Linn"],
+      "preis_keller": "140",
+      "preis_wohnung": "310",
+      "tier2_absatz": "Krefeld als ehemaliger Textilindustriestandort hat viele Gründerzeithäuser in der Innenstadt. Wohnungsauflösungen nach langen Mietverhältnissen und Erbschaftsfälle in diesen Vierteln sind häufig. Kellerentrümpelungen in Nachkriegsbauten in Hüls und Oppum ebenfalls."
+    },
+    {
+      "stadt": "Oberhausen",
+      "slug": "oberhausen",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Oberhausen (kreisfrei)",
+      "stadtteile": ["Innenstadt","Sterkrade","Osterfeld","Barmingholten","Schmachtendorf","Lirich","Tackenberg","Klosterhardt"],
+      "preis_keller": "140",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Hagen",
+      "slug": "hagen",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Hagen (kreisfrei)",
+      "stadtteile": ["Innenstadt","Haspe","Hohenlimburg","Vorhalle","Eilpe","Bathey","Dahl","Emst"],
+      "preis_keller": "140",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Hamm",
+      "slug": "hamm",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Hamm (kreisfrei)",
+      "stadtteile": ["Innenstadt","Bockum-Hövel","Heessen","Pelkum","Rhynern","Uentrop","Westtünnen","Mark"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Herne",
+      "slug": "herne",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Herne (kreisfrei)",
+      "stadtteile": ["Innenstadt","Wanne","Eickel","Sodingen","Horsthausen","Börnig","Holsterhausen","Crange"],
+      "preis_keller": "130",
+      "preis_wohnung": "285"
+    },
+    {
+      "stadt": "Mülheim an der Ruhr",
+      "slug": "muelheim-ruhr",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Mülheim an der Ruhr (kreisfrei)",
+      "stadtteile": ["Innenstadt","Styrum","Speldorf","Saarn","Heißen","Selbeck","Dümpten","Broich"],
+      "preis_keller": "140",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Leverkusen",
+      "slug": "leverkusen",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Leverkusen (kreisfrei)",
+      "stadtteile": ["Innenstadt","Opladen","Schlebusch","Wiesdorf","Manfort","Steinbüchel","Lützenkirchen","Quettingen"],
+      "preis_keller": "150",
+      "preis_wohnung": "330"
+    },
+    {
+      "stadt": "Solingen",
+      "slug": "solingen",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Solingen (kreisfrei)",
+      "stadtteile": ["Innenstadt","Ohligs","Wald","Mitte","Gräfrath","Höhscheid","Aufderhöhe","Dorp"],
+      "preis_keller": "140",
+      "preis_wohnung": "310"
+    },
+    {
+      "stadt": "Siegen",
+      "slug": "siegen",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Kreis Siegen-Wittgenstein",
+      "stadtteile": ["Innenstadt","Geisweid","Weidenau","Eiserfeld","Kaan-Marienborn","Birlenbach","Volnsberg","Achenbach"],
+      "preis_keller": "130",
+      "preis_wohnung": "280"
+    },
+    {
+      "stadt": "Paderborn",
+      "slug": "paderborn",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Kreis Paderborn",
+      "stadtteile": ["Innenstadt","Schloß Neuhaus","Elsen","Sande","Wewer","Dahl","Neuenbeken","Benhausen"],
+      "preis_keller": "130",
+      "preis_wohnung": "290"
+    },
+    {
+      "stadt": "Recklinghausen",
+      "slug": "recklinghausen",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Kreis Recklinghausen",
+      "stadtteile": ["Innenstadt","Hochlarmark","Hillerheide","König-Ludwig","Suderwich","Röllinghausen","Stuckenbusch","Grullbad"],
+      "preis_keller": "130",
+      "preis_wohnung": "285"
+    },
+    {
+      "stadt": "Bottrop",
+      "slug": "bottrop",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Bottrop (kreisfrei)",
+      "stadtteile": ["Innenstadt","Kirchhellen","Boy","Eigen","Fuhlenbrock","Batenbrock","Lehmkuhle","Vonderort"],
+      "preis_keller": "130",
+      "preis_wohnung": "285"
+    },
+    {
+      "stadt": "Remscheid",
+      "slug": "remscheid",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Stadt Remscheid (kreisfrei)",
+      "stadtteile": ["Innenstadt","Lennep","Lüttringhausen","Reinshagen","Hasten","Kremenholl","Honsberg","Hackenberg"],
+      "preis_keller": "140",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Moers",
+      "slug": "moers",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Kreis Wesel",
+      "stadtteile": ["Innenstadt","Hochstraß","Hülsdonk","Asberg","Repelen","Schwafheim","Meerbeck","Kapellen"],
+      "preis_keller": "140",
+      "preis_wohnung": "300"
+    },
+    {
+      "stadt": "Bergisch Gladbach",
+      "slug": "bergisch-gladbach",
+      "tier": 1,
+      "region": "Nordrhein-Westfalen · Rheinisch-Bergischer Kreis",
+      "stadtteile": ["Innenstadt","Bensberg","Refrath","Hand","Herkenrath","Moitzfeld","Kürten","Schildgen"],
+      "preis_keller": "150",
+      "preis_wohnung": "340"
+    }
+  ]
+}

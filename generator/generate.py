@@ -15,9 +15,11 @@ import sys
 import os
 from urllib.parse import quote
 
-def load_data():
+def load_data(cities_file=None):
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    with open(os.path.join(script_dir, 'cities.json'), encoding='utf-8') as f:
+    if cities_file is None:
+        cities_file = os.path.join(script_dir, 'cities.json')
+    with open(cities_file, encoding='utf-8') as f:
         data = json.load(f)
     with open(os.path.join(script_dir, 'template.html'), encoding='utf-8') as f:
         template = f.read()
@@ -96,6 +98,7 @@ def main():
     filter_stadt = None
     domain = None
     outdir = None
+    cities_file = None
 
     i = 0
     while i < len(args):
@@ -107,10 +110,12 @@ def main():
             domain = args[i+1]; i += 2
         elif args[i] == '--outdir' and i + 1 < len(args):
             outdir = args[i+1]; i += 2
+        elif args[i] == '--cities' and i + 1 < len(args):
+            cities_file = args[i+1]; i += 2
         else:
             i += 1
 
-    data, template = load_data()
+    data, template = load_data(cities_file)
     if domain is None:
         domain = data['meta']['domain']
     if outdir is None:
