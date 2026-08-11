@@ -1,50 +1,219 @@
-[
-  {
-    "stadt": "Ilmenau",
-    "slug": "ilmenau",
-    "ortsteile": "Gehren, Langewiesen, Manebach, Unterpörlitz",
-    "beschreibung": "Entrümpelung in Ilmenau für Wohnungen, Häuser, Keller und Gewerberäume. Schnelle Räumungen für Privatpersonen, Vermieter und Unternehmen.",
-    "preis": "Kellerentrümpelungen ab 120 €, Wohnungen meist ab 200 €",
-    "besonderheit": "Universitätsstadt mit vielen Studentenwohnungen und regelmäßigen Wohnungsauflösungen"
-  },
-  {
-    "stadt": "Erfurt",
-    "slug": "erfurt",
-    "ortsteile": "Altstadt, Gispersleben, Bindersleben, Daberstedt",
-    "beschreibung": "Professionelle Entrümpelung in Erfurt für Haushalte, Immobilien und Gewerbe. Von der Kellerauflösung bis zur kompletten Haushaltsauflösung.",
-    "preis": "Faire Preise nach Besichtigung",
-    "besonderheit": "Landeshauptstadt mit vielen Wohnungen, Immobilien und Gewerbeobjekten"
-  },
-  {
-    "stadt": "Jena",
-    "slug": "jena",
-    "ortsteile": "Winzerla, Lobeda, Zwätzen, Göschwitz",
-    "beschreibung": "Entrümpelung in Jena für Wohnungen, Häuser und Firmen. Zuverlässige Räumung mit transparenter Preisgestaltung.",
-    "preis": "Individuelle Festpreise nach Aufwand",
-    "besonderheit": "Universitätsstadt mit vielen Mietwohnungen und häufigen Umzügen"
-  },
-  {
-    "stadt": "Gera",
-    "slug": "gera",
-    "ortsteile": "Debschwitz, Bieblach, Lusan",
-    "beschreibung": "Entrümpelung in Gera für private Haushalte, Nachlässe und Immobilienbesitzer.",
-    "preis": "Kostenlose Einschätzung möglich",
-    "besonderheit": "Viele Altbauwohnungen und Immobilien mit Räumbedarf"
-  },
-  {
-    "stadt": "Weimar",
-    "slug": "weimar",
-    "ortsteile": "Schöndorf, Ehringsdorf, Tiefurt",
-    "beschreibung": "Entrümpelung in Weimar für Wohnungen, Keller, Dachböden und Gewerberäume.",
-    "preis": "Festpreis nach Besichtigung",
-    "besonderheit": "Historische Stadt mit vielen privaten und gewerblichen Immobilien"
-  },
 {
-  "stadt": "Eisenach",
-  "slug": "eisenach",
-  "ortsteile": "Neukirchen, Stedtfeld, Hörschel, Stockhausen",
-  "beschreibung": "Entrümpelung in Eisenach für Wohnungen, Häuser, Keller und Gewerbe. Zuverlässige Räumungen für Privatpersonen, Vermieter und Unternehmen.",
-  "preis": "Faire Preise nach kostenloser Besichtigung",
-  "besonderheit": "Historische Stadt mit vielen Altbauten, Immobilien und Haushaltsauflösungen"
+  "meta": {
+    "domain": "https://entruempelung-thueringen.com",
+    "phone": "+4915730064205",
+    "whatsapp": "4915730064205"
+  },
+  "cities": [
+    {
+      "stadt": "Eisenach",
+      "slug": "eisenach",
+      "tier": 2,
+      "region": "Westthüringen · Wartburgkreis",
+      "hook": "Wartburg & Lutherstadt",
+      "stadtteile": ["Wartburgstadt","Stregda","Hötzelsroda","Stockhausen","Madelungen","Stedtfeld","Neustadt","Johannisvorstadt"],
+      "preis_keller": "130",
+      "preis_wohnung": "300",
+      "tier2_absatz": "Eisenach ist als Wartburg-Stadt touristisch stark geprägt – viele Altbauwohnungen in der Innenstadt und Ferienwohnungen im Umland werden regelmäßig aufgelöst. Häufig treffen wir auf Erbschaftsfälle in gründerzeitlichen Altbauten rund um die Karlstraße und Alexanderstraße."
+    },
+    {
+      "stadt": "Gera",
+      "slug": "gera",
+      "tier": 2,
+      "region": "Ostthüringen · Stadt Gera (kreisfrei)",
+      "hook": "DDR-Plattenbau & Gründerzeit",
+      "stadtteile": ["Lusan","Bieblach","Zwötzen","Tinz","Untermhaus","Debschwitz","Liebschwitz","Langenberg"],
+      "preis_keller": "120",
+      "preis_wohnung": "280",
+      "tier2_absatz": "Gera hat einen hohen Anteil an DDR-Plattenbauten – besonders in Lusan und Bieblach-Ost. Keller und Abstellräume dieser WBS-70-Bauten sind oft über Jahrzehnte vollgestellt. Daneben gibt es gründerzeitliche Altbauten in der Südstadt mit großen Wohnungsauflösungen."
+    },
+    {
+      "stadt": "Gotha",
+      "slug": "gotha",
+      "tier": 2,
+      "region": "Westthüringen · Landkreis Gotha",
+      "hook": "Residenzstadt & Schloss Friedenstein",
+      "stadtteile": ["Siebleben","Boilstädt","Sundhausen","Uelleben","Boxberg","Oststadt","Innenstadt","Hohenebra"],
+      "preis_keller": "120",
+      "preis_wohnung": "290",
+      "tier2_absatz": "In Gotha gibt es eine Mischung aus gründerzeitlichen Innenstadtbauten und DDR-Neubauvierteln in der Oststadt. Die Altbauwohnungen rund um den Hauptmarkt werden regelmäßig aufgelöst – oft als Erbschaft nach langen Mietverhältnissen."
+    },
+    {
+      "stadt": "Jena",
+      "slug": "jena",
+      "tier": 2,
+      "region": "Ostthüringen · Stadt Jena (kreisfrei)",
+      "hook": "Universitätsstadt & Carl-Zeiss",
+      "stadtteile": ["Lobeda","Winzerla","Göschwitz","Burgau","Zwätzen","Nord","West","Zentrum"],
+      "preis_keller": "140",
+      "preis_wohnung": "320",
+      "tier2_absatz": "Jena als Universitätsstadt bedeutet hohe Fluktuation – Studentenwohnungen in Lobeda-West oder Winzerla werden oft bei Exmatrikulation kurzfristig geräumt. Daneben gibt es viele Altbauten im Kernberge-Viertel und Seniorenauflösungen in den Plattenbauvierteln."
+    },
+    {
+      "stadt": "Weimar",
+      "slug": "weimar",
+      "tier": 2,
+      "region": "Mittelthüringen · Stadt Weimar (kreisfrei)",
+      "hook": "Klassikerstadt & UNESCO-Welterbe",
+      "stadtteile": ["Schöndorf","Nordvorstadt","Westvorstadt","Altstadt","Legefeld","Taubach","Gaberndorf","Tiefurt"],
+      "preis_keller": "130",
+      "preis_wohnung": "310",
+      "tier2_absatz": "Weimar hat einen hohen Anteil an denkmalgeschützten Altbauten in der Nordvorstadt und Westvorstadt. Wohnungsauflösungen erfordern hier besondere Sorgfalt beim Abtransport. Häufig treffen wir auf Erbschaftsfälle in Gründerzeithäusern aus der Klassik-Ära."
+    },
+    {
+      "stadt": "Suhl",
+      "slug": "suhl",
+      "tier": 2,
+      "region": "Südthüringen · Stadt Suhl (kreisfrei)",
+      "hook": "Waffenstadt & Thüringer Wald",
+      "stadtteile": ["Mäbendorf","Goldlauter","Lauter","Heinrichs","Dietzhausen","Vesser","Heidersbach","Albrechts"],
+      "preis_keller": "120",
+      "preis_wohnung": "270",
+      "tier2_absatz": "Suhl hat als ehemaliger DDR-Industriestandort (VEB Fahrzeug- und Jagdwaffenwerk) viele Plattenbauten aus den 70er- und 80er-Jahren. Die Bevölkerung schrumpft – Wohnungsauflösungen nach Umzügen oder Todesfällen sind hier besonders häufig."
+    },
+    {
+      "stadt": "Arnstadt",
+      "slug": "arnstadt",
+      "tier": 1,
+      "region": "Mittelthüringen · Ilm-Kreis",
+      "stadtteile": ["Innenstadt","Plaue","Angelhausen","Rudisleben","Marlishausen","Wipfratal","Hausen","Wachsenburggemeinde"],
+      "preis_keller": "120",
+      "preis_wohnung": "280"
+    },
+    {
+      "stadt": "Altenburg",
+      "slug": "altenburg",
+      "tier": 1,
+      "region": "Ostthüringen · Landkreis Altenburger Land",
+      "stadtteile": ["Innenstadt","Nobitz","Windischleuba","Leina","Poschwitz","Göpfersdorf","Fockendorf","Paditz"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Mühlhausen",
+      "slug": "muehlhausen",
+      "tier": 1,
+      "region": "Nordwestthüringen · Unstrut-Hainich-Kreis",
+      "stadtteile": ["Altstadt","Neustadt","Görmar","Popperode","Felchta","Grabe","Höngeda","Eigenrieden"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Saalfeld",
+      "slug": "saalfeld",
+      "tier": 1,
+      "region": "Südostthüringen · Landkreis Saalfeld-Rudolstadt",
+      "stadtteile": ["Innenstadt","Gorndorf","Beulwitz","Wittgendorf","Aue am Berg","Graba","Großkochberg","Schmiedefeld"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Rudolstadt",
+      "slug": "rudolstadt",
+      "tier": 1,
+      "region": "Südostthüringen · Landkreis Saalfeld-Rudolstadt",
+      "stadtteile": ["Innenstadt","Schwarza","Cumbach","Mörla","Volkstedt","Füllbach","Remda","Unterweißbach"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Sömmerda",
+      "slug": "soemmerda",
+      "tier": 1,
+      "region": "Mittelthüringen · Landkreis Sömmerda",
+      "stadtteile": ["Innenstadt","Orlishausen","Rohrborn","Leubingen","Kannawurf","Schwerstedt","Gangloffsömmern","Tunzenhausen"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Meiningen",
+      "slug": "meiningen",
+      "tier": 1,
+      "region": "Südthüringen · Landkreis Schmalkalden-Meiningen",
+      "stadtteile": ["Innenstadt","Dreißigacker","Welkershausen","Herpf","Stepfershausen","Henneberg","Rippershausen","Aschenhausen"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Apolda",
+      "slug": "apolda",
+      "tier": 1,
+      "region": "Mittelthüringen · Landkreis Weimarer Land",
+      "stadtteile": ["Innenstadt","Oberroßla","Pfiffelbach","Nauendorf","Zottelstedt","Rödigsdorf","Herressen","Utenbach"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Bad Langensalza",
+      "slug": "bad-langensalza",
+      "tier": 1,
+      "region": "Nordwestthüringen · Unstrut-Hainich-Kreis",
+      "stadtteile": ["Innenstadt","Ufhoven","Zimmern","Henningsleben","Illeben","Thamsbrück","Großwelsbach","Merxleben"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    },
+    {
+      "stadt": "Sonneberg",
+      "slug": "sonneberg",
+      "tier": 1,
+      "region": "Südthüringen · Landkreis Sonneberg",
+      "stadtteile": ["Innenstadt","Hüttensteinach","Hasenthal","Wolkenrasen","Oberlind","Neufang","Bürgerhaus","Heubisch"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Leinefelde-Worbis",
+      "slug": "leinefelde",
+      "tier": 1,
+      "region": "Nordthüringen · Eichsfeld",
+      "stadtteile": ["Leinefelde","Worbis","Breitenholz","Kaltohmfeld","Buhla","Germershausen","Beuren","Bischofferode"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Greiz",
+      "slug": "greiz",
+      "tier": 1,
+      "region": "Ostthüringen · Landkreis Greiz",
+      "stadtteile": ["Innenstadt","Pohlitz","Dölau","Moschwitz","Waldhaus","Gommla","Irchwitz","Obergrochlitz"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Pößneck",
+      "slug": "poessneck",
+      "tier": 1,
+      "region": "Ostthüringen · Saale-Orla-Kreis",
+      "stadtteile": ["Innenstadt","Pößneck Ost","Pößneck Nord","Weira","Krölpa","Oppurg","Langenorla","Öpitz"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Schmalkalden",
+      "slug": "schmalkalden",
+      "tier": 1,
+      "region": "Südthüringen · Landkreis Schmalkalden-Meiningen",
+      "stadtteile": ["Innenstadt","Asbach","Näherstille","Mittelschmalkalden","Oberstadt","Fambach","Möckers","Brotterode"],
+      "preis_keller": "120",
+      "preis_wohnung": "265"
+    },
+    {
+      "stadt": "Sondershausen",
+      "slug": "sondershausen",
+      "tier": 1,
+      "region": "Nordthüringen · Kyffhäuserkreis",
+      "stadtteile": ["Innenstadt","Bebra","Stockhausen","Großfurra","Wiedermut","Thalebra","Holzthaleben","Immenrode"],
+      "preis_keller": "120",
+      "preis_wohnung": "260"
+    },
+    {
+      "stadt": "Stadtilm",
+      "slug": "stadtilm",
+      "tier": 1,
+      "region": "Mittelthüringen · Ilm-Kreis",
+      "stadtteile": ["Innenstadt","Griesheim","Dörnfeld","Nieder-Röbling","Ober-Röbling","Traßdorf","Dannheim","Geschwenda"],
+      "preis_keller": "120",
+      "preis_wohnung": "270"
+    }
+  ]
 }
-]
