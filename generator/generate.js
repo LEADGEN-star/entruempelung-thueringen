@@ -16,7 +16,7 @@ cities.forEach(city => {
     .replaceAll("{{preis}}", city.preis || "");
 
   fs.writeFileSync(
-    `entrumpelung-${city.slug}.html`,
+    `entruempelung-${city.slug}.html`,
     page
   );
 
