@@ -462,3 +462,65 @@ textarea.field{min-height:84px;resize:vertical;line-height:1.55}
 .more{display:inline-block;margin-top:.45rem;font-size:.82rem;font-weight:700;
   letter-spacing:-.015em;color:var(--accent);transition:opacity .18s var(--ease)}
 .svc:hover .more{opacity:.82}
+
+/* ══════════════ FOTOANFRAGE ══════════════ */
+.photos{display:flex;flex-direction:column;gap:.55rem}
+.photo-add{display:flex;align-items:center;gap:.85rem;width:100%;text-align:left;cursor:pointer;
+  padding:.85rem 1rem;border:1px dashed var(--rule-dash,rgba(25,26,28,.22));border-radius:var(--r-s);
+  background:var(--surface-2);
+  transition:border-color .18s var(--ease),background .18s var(--ease),transform .14s var(--spring)}
+.photo-add:hover{border-color:var(--accent);background:var(--surface)}
+.photo-add:active{transform:scale(.985)}
+.photos.is-over .photo-add{border-color:var(--accent);background:var(--accent-soft)}
+.photo-ic{width:38px;height:38px;flex-shrink:0;border-radius:999px;display:grid;place-items:center;
+  background:var(--accent-soft);color:var(--accent)}
+.photo-txt{display:flex;flex-direction:column;gap:.12rem;min-width:0}
+.photo-txt strong{font-size:.93rem;font-weight:750;letter-spacing:-.02em}
+.photo-txt span{font-size:.78rem;color:var(--ink-2);line-height:1.45}
+
+.photo-list{display:flex;flex-wrap:wrap;gap:.5rem}
+.photo-list:empty{display:none}
+.thumb{position:relative;width:74px;height:74px;border-radius:var(--r-xs);overflow:hidden;
+  box-shadow:var(--sh-1);background:var(--bg-deep);
+  animation:thumbIn .32s var(--spring) both}
+@keyframes thumbIn{from{opacity:0;transform:scale(.86)}to{opacity:1;transform:none}}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb button{position:absolute;top:3px;right:3px;width:21px;height:21px;border:0;cursor:pointer;
+  border-radius:999px;display:grid;place-items:center;color:#fff;
+  background:rgba(20,20,22,.62);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  transition:background .18s var(--ease)}
+.thumb button:hover{background:rgba(20,20,22,.85)}
+.thumb .kb{position:absolute;left:0;right:0;bottom:0;padding:2px 4px;font-size:.58rem;font-weight:700;
+  color:#fff;background:linear-gradient(transparent,rgba(20,20,22,.72));text-align:right;
+  font-variant-numeric:tabular-nums}
+.photo-note{font-size:.76rem;color:var(--ink-2);font-weight:500;line-height:1.5}
+.photo-note.warn{color:#B3541E}
+
+/* ══════════════ REAKTIONSSCHICHT ══════════════
+   Die Klassen setzt das Skript selbst. Ohne JavaScript bleibt
+   nichts unsichtbar – die Seite ist dann einfach statisch. */
+
+/* Licht im Kopfbereich folgt dem Zeiger */
+.hero::before{
+  background:radial-gradient(120% 75% at var(--lx,72%) var(--ly,0%),
+    rgba(255,255,255,.95) 0%, rgba(255,255,255,0) 62%);
+  transition:none;
+}
+
+/* Inhalte kommen an, statt einfach da zu sein */
+.rise{opacity:0;transform:translateY(16px)}
+.rise.here{opacity:1;transform:none;
+  transition:opacity .62s var(--ease),transform .68s var(--spring)}
+
+/* Schimmer über dem Foto-Vergleich – auf dem Bild ist Licht sichtbar */
+.slider::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;
+  background:radial-gradient(420px circle at var(--sx,50%) var(--sy,50%),
+    rgba(255,255,255,.16), transparent 58%);
+  opacity:0;transition:opacity .4s var(--ease)}
+.slider.lit::after{opacity:1}
+
+@media (prefers-reduced-motion:reduce){
+  .rise{opacity:1;transform:none}
+  .slider::after{display:none}
+}

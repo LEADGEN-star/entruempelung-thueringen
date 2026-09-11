@@ -133,6 +133,22 @@
           <option>Kellerentrümpelung</option><option>Dachbodenentrümpelung</option>
           <option>Garagenentrümpelung</option><option>Gewerbeauflösung</option><option>Sonstige</option>
         </select>
+
+        <div class="photos" data-photos>
+          <input type="file" id="k1f" accept="image/*" multiple hidden data-photo-input>
+          <button type="button" class="photo-add" data-photo-open>
+            <span class="photo-ic" aria-hidden="true">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5A1.5 1.5 0 014.5 7h2.2l1.1-1.8A1.5 1.5 0 019.1 4.5h5.8a1.5 1.5 0 011.3.7L17.3 7h2.2A1.5 1.5 0 0121 8.5v9a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 17.5z"/><circle cx="12" cy="12.6" r="3.4"/></svg>
+            </span>
+            <span class="photo-txt">
+              <strong>Fotos hinzufügen</strong>
+              <span>Mit Bildern nennen wir den Festpreis oft ohne Besichtigung</span>
+            </span>
+          </button>
+          <div class="photo-list" data-photo-list></div>
+          <p class="photo-note" data-photo-note hidden></p>
+        </div>
+
         <button type="submit" class="btn">Jetzt kostenlos anfragen</button>
         <p class="fine">Kein Auftrag = kein Risiko · Rückruf innerhalb 24h</p>
         <div class="or-row"><span>Lieber direkt schreiben?</span></div>
