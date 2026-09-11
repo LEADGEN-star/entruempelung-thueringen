@@ -41,33 +41,14 @@
       'currency': 'EUR'
     });
   </script>
-  <style>
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    :root{--dark:#111827;--dark-2:#1f2937;--orange:#ea580c;--orange-light:#f97316;--white:#ffffff;--gray:#f9fafb;--text:#1e293b;--muted:#6b7280}
-    body{font-family:'Source Sans 3',sans-serif;color:var(--text);background:var(--white);line-height:1.65;min-height:100vh;display:flex;flex-direction:column}
-    nav{background:#fff;padding:.9rem 2rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e8e2dc;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
-    .logo{font-family:'Oswald',sans-serif;font-size:1.35rem;font-weight:700;color:var(--white);text-decoration:none;letter-spacing:.03em}
-    
-    main{flex:1;display:flex;align-items:center;justify-content:center;padding:4rem 2rem;background:var(--gray)}
-    .card{background:var(--white);border-radius:12px;padding:3rem 2.5rem;max-width:560px;width:100%;text-align:center;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .check{width:72px;height:72px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;font-size:2rem}
-    h1{font-family:'Oswald',sans-serif;font-size:2rem;font-weight:700;color:var(--dark);margin-bottom:.8rem}
-    p{color:var(--muted);font-size:1.05rem;margin-bottom:.5rem}
-    .highlight{color:var(--dark);font-weight:600}
-    .steps{margin:2rem 0;display:flex;flex-direction:column;gap:.8rem;text-align:left}
-    .step-row{display:flex;align-items:flex-start;gap:.9rem}
-    .step-badge{background:var(--orange);color:#fff;font-family:'Oswald',sans-serif;font-weight:700;font-size:.9rem;width:28px;height:28px;border-radius:4px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
-    .step-text{color:var(--text);font-size:.95rem}
-    .divider{border:none;border-top:1px solid #e5e7eb;margin:1.5rem 0}
-    .wa-btn{display:inline-flex;align-items:center;gap:.6rem;background:#25D366;color:#fff;font-weight:700;font-size:1rem;padding:.85rem 1.8rem;border-radius:50px;text-decoration:none;margin-top:.5rem}
-    .back{display:inline-block;margin-top:1rem;color:var(--muted);font-size:.9rem;text-decoration:none}
-    .back:hover{color:var(--orange)}
-    footer{background:#080e18;color:rgba(255,255,255,.45);text-align:center;padding:1.5rem;font-size:.85rem}
-    footer a{color:rgba(255,255,255,.55);text-decoration:none}
-  </style>
   <script>fbq('track', 'Lead');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/pages.css">
 </head>
-<body>
+<body class="legacy">
 <nav>
   <a href="/" class="logo"><img src="/logo.svg" alt="Entrümpelung Thüringen" width="210" height="44" style="height:44px;width:auto;" /></a>
 </nav>
@@ -105,5 +86,6 @@
 <footer>
   <p>© 2026 entruempelung-thueringen.com &nbsp;·&nbsp; <a href="https://entruempelung-deutschland.com/partner-werden">Partner werden</a> &nbsp;&middot;&nbsp; <a href="/impressum">Impressum</a> &nbsp;·&nbsp; <a href="/datenschutz">Datenschutz</a></p>
 </footer>
+<script src="/assets/site.js" defer></script>
 </body>
 </html>

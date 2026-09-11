@@ -392,6 +392,17 @@ var Fotos = (function(){
       + ' :scope > .wrap.cgrid > *, :scope > .wrap.bgrid > *');
     kinder.forEach(function(k){ ziele.push(k); });
   });
+
+  /* Seiten mit gewachsenem Markup: dort heissen die Bausteine anders */
+  if (document.body.classList.contains('legacy')) {
+    document.querySelectorAll(
+      '.card, .info-card, .feat-card, .svc-card, .price-card, .review-card,'
+      + ' .related-card, .article-card, .option-card, .city-card, .step, .step-row,'
+      + ' .faq-item, .checklist-item, .mistake-item, .stat-box,'
+      + ' .container > h2, .container > .section-label, .container > .subtitle'
+    ).forEach(function(k){ ziele.push(k); });
+  }
+
   if (!ziele.length) return;
 
   ziele.forEach(function(k){ k.classList.add('rise'); });
