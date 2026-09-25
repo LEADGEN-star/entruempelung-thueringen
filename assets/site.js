@@ -308,7 +308,7 @@ var Fotos = (function(){
         .then(function(r){ return r.json(); })
         .then(function(d){
           if (!d.success) throw new Error(d.message);
-          location.href = '/danke.html';
+          location.href = '/danke';
         })
         .catch(function(){
           btn.disabled = false;

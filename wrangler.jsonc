@@ -8,7 +8,9 @@
   "main": "worker.js",
   "assets": {
     "directory": ".",
-    "binding": "ASSETS"
+    "binding": "ASSETS",
+    // Worker vor den Dateien ausführen, damit http/www/.html/entrumpelung-* immer per 301 umgeleitet werden
+    "run_worker_first": true
   },
   "compatibility_flags": [
     "nodejs_compat"
