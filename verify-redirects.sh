@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Verify 301 redirects for entrumpelung- → entruempelung- city pages.
+# Verify 301 redirects for entrumpelung- → entruempelung- pages (liest _redirects).
 # Usage: bash verify-redirects.sh [base-url]
 # Default base: https://entruempelung-thueringen.com
 
@@ -7,25 +7,12 @@ BASE="${1:-https://entruempelung-thueringen.com}"
 PASS=0
 FAIL=0
 
-declare -A REDIRECTS=(
-  [entrumpelung-erfurt]=entruempelung-erfurt
-  [entrumpelung-gera]=entruempelung-gera
-  [entrumpelung-weimar]=entruempelung-weimar
-  [entrumpelung-ilmenau]=entruempelung-ilmenau
-  [entrumpelung-jena]=entruempelung-jena
-  [entrumpelung-eisenach]=entruempelung-eisenach
-  [entrumpelung-bad-langensalza]=entruempelung-bad-langensalza
-  [entrumpelung-gotha]=entruempelung-gotha
-  [entrumpelung-nordhausen]=entruempelung-nordhausen
-  [entrumpelung-graefenroda]=entruempelung-graefenroda
-  [entrumpelung-arnstadt]=entruempelung-arnstadt
-  [entrumpelung-meiningen]=entruempelung-meiningen
-  [entrumpelung-muehlhausen]=entruempelung-muehlhausen
-  [entrumpelung-kosten]=entruempelung-kosten
-  [entrumpelung-geraberg]=entruempelung-geraberg
-  [entrumpelung-martinroda]=entruempelung-martinroda
-  [entrumpelung-elgersburg]=entruempelung-elgersburg
-)
+declare -A REDIRECTS=()
+# Alle entrumpelung-* → entruempelung-* Regeln aus _redirects übernehmen
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+while read -r SRC DST _; do
+  [[ "$SRC" == *entrumpelung-* ]] && REDIRECTS["${SRC#/}"]="${DST#/}"
+done < "${SCRIPT_DIR}/_redirects"
 
 printf "%-50s %-8s %-55s %s\n" "URL_alt" "Status" "Ziel" "OK/FEHLER"
 printf "%s\n" "$(printf '─%.0s' {1..130})"
@@ -83,3 +70,16 @@ if [[ "$STATUS" == "301" && "$LOC" == "${BASE}/entruempelung-kosten" && "$DEST_S
 else
   echo "  → PRÜFEN: Status=${STATUS} Endstatus=${DEST_STATUS}"
 fi
+
+echo ""
+echo "=== Host-/Pfad-Normalisierung (erwartet: 301 direkt auf ${BASE}/entruempelung-erfurt) ==="
+for SRC_URL in \
+  "http://entruempelung-thueringen.com/entruempelung-erfurt" \
+  "http://www.entruempelung-thueringen.com/entruempelung-erfurt" \
+  "https://www.entruempelung-thueringen.com/entruempelung-erfurt" \
+  "https://www.entruempelung-thueringen.com/entrumpelung-erfurt" \
+  "${BASE}/entruempelung-erfurt.html" \
+  "${BASE}/entruempelung-erfurt/"; do
+  RESULT=$(curl -s -o /dev/null -w "%{http_code} %{redirect_url}" --max-redirs 0 "${SRC_URL}")
+  printf "%-65s %s\n" "$SRC_URL" "$RESULT"
+done

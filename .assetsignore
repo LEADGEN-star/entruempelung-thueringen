@@ -1,0 +1,12 @@
+# Nicht öffentlich ausliefern (assets.directory = ".")
+.git
+.gitignore
+.DS_Store
+.netlify
+.wrangler
+generator
+README.md
+netlify.toml
+wrangler.jsonc
+worker.js
+verify-redirects.sh

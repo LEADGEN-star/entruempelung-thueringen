@@ -456,7 +456,7 @@ Wir übernehmen Wohnungsauflösungen und Entrümpelungen in ganz Thüringen, unt
       body: JSON.stringify(data)
     }).then(function(r) { return r.json(); }).then(function(j) {
       if (!j.success) throw new Error(j.message);
-      window.location.href = "/danke.html";
+      window.location.href = "/danke";
     }).catch(function() {
       btn.disabled = false;
       btn.textContent = "Kostenlos & unverbindlich anfragen →";
